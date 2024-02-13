@@ -11,6 +11,8 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8550-common/proprietary/odm/etc/init/hw/init.oplus.display.rc:$(TARGET_COPY_OUT_ODM)/etc/init/hw/init.oplus.display.rc \
     vendor/oneplus/sm8550-common/proprietary/odm/etc/init/init.oplus.sensor.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.oplus.sensor.rc \
     vendor/oneplus/sm8550-common/proprietary/odm/etc/init/init.oppo.reserve.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.oppo.reserve.rc \
+    vendor/oneplus/sm8550-common/proprietary/odm/etc/init/init.touchDaemon.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.touchDaemon.rc \
+    vendor/oneplus/sm8550-common/proprietary/odm/etc/init/vendor-oplus-hardware-touch-V2-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor-oplus-hardware-touch-V2-service.rc \
     vendor/oneplus/sm8550-common/proprietary/odm/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc \
     vendor/oneplus/sm8550-common/proprietary/odm/etc/init/vendor.oplus.hardware.biometrics.fingerprintpay@1.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.biometrics.fingerprintpay@1.0-service.rc \
     vendor/oneplus/sm8550-common/proprietary/odm/etc/init/vendor.oplus.hardware.charger-V6-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.charger-V6-service.rc \
@@ -1286,6 +1288,7 @@ PRODUCT_PACKAGES += \
     manifest_oplus_ifaa.xml \
     manifest_oplus_stability_project_aidl.xml \
     manifest_secure_element.xml \
+    manifest_touch_aidl.xml \
     vendor.pixelworks.hardware.display@1.2.xml \
     vendor.pixelworks.hardware.feature.irisfeature-service.xml \
     ATFWD-daemon \
@@ -1385,6 +1388,7 @@ PRODUCT_PACKAGES += \
     qccsyshal@1.2-service \
     tcmd \
     wfdservice64 \
+    vendor-oplus-hardware-touch-V2-service \
     vendor.oplus.hardware.biometrics.fingerprint@2.1-service_uff \
     vendor.oplus.hardware.biometrics.fingerprintpay@1.0-service \
     vendor.oplus.hardware.charger-V6-service \
@@ -1393,7 +1397,8 @@ PRODUCT_PACKAGES += \
     vendor.qti.esepowermanager@1.1-service \
     vendor.qti.secure_element@1.2-service \
     irisConfig \
-    oplus_sensor_fb
+    oplus_sensor_fb \
+    touchDaemon
 
 PRODUCT_PACKAGES += \
     system_ext_priv-app_ims_lib_arm64_libimscamera_jni_so \

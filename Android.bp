@@ -23108,6 +23108,15 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
+    name: "manifest_touch_aidl.xml",
+    owner: "oneplus",
+    src: "proprietary/odm/etc/vintf/manifest/manifest_touch_aidl.xml",
+    filename_from_src: true,
+    sub_dir: "vintf/manifest",
+    device_specific: true,
+}
+
+prebuilt_etc_xml {
     name: "vendor.pixelworks.hardware.display@1.2.xml",
     owner: "oneplus",
     src: "proprietary/odm/etc/vintf/manifest/vendor.pixelworks.hardware.display@1.2.xml",
@@ -26131,6 +26140,40 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    name: "vendor-oplus-hardware-touch-V2-service",
+    owner: "oneplus",
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/bin/hw/vendor-oplus-hardware-touch-V2-service",
+            ],
+            shared_libs: [
+                "libolc_vnd",
+                "vendor.oplus.hardware.touch-V2-ndk",
+                "libbase",
+                "libcutils",
+                "liblog",
+                "libbinder_ndk",
+                "libutils",
+                "libhardware",
+                "libbinder",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    strip: {
+        none: true,
+    },
+    prefer: true,
+    relative_install_path: "hw",
+    device_specific: true,
+}
+
+cc_prebuilt_binary {
     name: "vendor.oplus.hardware.biometrics.fingerprint@2.1-service_uff",
     owner: "oneplus",
     target: {
@@ -26440,6 +26483,41 @@ cc_prebuilt_binary {
                 "libutils",
                 "libcutils",
                 "liboplus_service",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    strip: {
+        none: true,
+    },
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_binary {
+    name: "touchDaemon",
+    owner: "oneplus",
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/bin/touchDaemon",
+            ],
+            shared_libs: [
+                "libolc_vnd",
+                "vendor.oplus.hardware.touch-V2-ndk",
+                "libcutils",
+                "liblog",
+                "libbase",
+                "libbinder",
+                "libcrypto",
+                "libhwbinder",
+                "libutils",
+                "libbinder_ndk",
+                "libtinyxml2",
                 "libc++",
                 "libc",
                 "libm",
