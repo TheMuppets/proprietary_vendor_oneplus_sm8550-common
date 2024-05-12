@@ -929,6 +929,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8550-common/proprietary/odm/lib64/libc2filterplugin.so:$(TARGET_COPY_OUT_ODM)/lib64/libc2filterplugin.so \
     vendor/oneplus/sm8550-common/proprietary/odm/lib64/libcalculator.so:$(TARGET_COPY_OUT_ODM)/lib64/libcalculator.so \
     vendor/oneplus/sm8550-common/proprietary/odm/lib64/libcalculator_htp.so:$(TARGET_COPY_OUT_ODM)/lib64/libcalculator_htp.so \
+    vendor/oneplus/sm8550-common/proprietary/odm/lib64/libclstc_fodcolor_csc.so:$(TARGET_COPY_OUT_ODM)/lib64/libclstc_fodcolor_csc.so \
     vendor/oneplus/sm8550-common/proprietary/odm/lib64/libcommcenterfw.so:$(TARGET_COPY_OUT_ODM)/lib64/libcommcenterfw.so \
     vendor/oneplus/sm8550-common/proprietary/odm/lib64/libcommcenterutils.so:$(TARGET_COPY_OUT_ODM)/lib64/libcommcenterutils.so \
     vendor/oneplus/sm8550-common/proprietary/odm/lib64/libcreatebin.so:$(TARGET_COPY_OUT_ODM)/lib64/libcreatebin.so \
@@ -2423,7 +2424,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8550-common/proprietary/vendor/lib64/vendor.oplus.hardware.ims-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oplus.hardware.ims-V1-ndk.so \
     vendor/oneplus/sm8550-common/proprietary/vendor/lib64/vendor.oplus.hardware.osense.client-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oplus.hardware.osense.client-V1-ndk.so \
     vendor/oneplus/sm8550-common/proprietary/vendor/lib64/vendor.oplus.hardware.performance-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oplus.hardware.performance-V1-ndk.so \
-    vendor/oneplus/sm8550-common/proprietary/vendor/lib64/vendor.oplus.hardware.radio-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oplus.hardware.radio-V1-ndk_platform.so \
+    vendor/oneplus/sm8550-common/proprietary/vendor/lib64/vendor.oplus.hardware.radio-V2-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oplus.hardware.radio-V2-ndk_platform.so \
     vendor/oneplus/sm8550-common/proprietary/vendor/lib64/vendor.oplus.hardware.sendextcamcmd-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oplus.hardware.sendextcamcmd-V1-ndk.so \
     vendor/oneplus/sm8550-common/proprietary/vendor/lib64/vendor.oplus.hardware.stability.oplus_project-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oplus.hardware.stability.oplus_project-V1-ndk.so \
     vendor/oneplus/sm8550-common/proprietary/vendor/lib64/vendor.pixelworks.hardware.display@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.pixelworks.hardware.display@1.0.so \

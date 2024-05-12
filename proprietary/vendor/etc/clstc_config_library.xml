@@ -48,8 +48,14 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
     </library>
 
     <library>
-        <name>libdisplaycolorfeature.so</name>
+        <name>libclstc_fodcolor_csc.so</name>
         <priority>3</priority>
+        <enable>1</enable>
+    </library>
+
+    <library>
+        <name>libdisplaycolorfeature.so</name>
+        <priority>4</priority>
         <enable>1</enable>
     </library>
 
