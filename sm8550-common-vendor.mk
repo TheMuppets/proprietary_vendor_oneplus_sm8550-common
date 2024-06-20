@@ -986,7 +986,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8550-common/proprietary/odm/lib64/libthirdcapability.so:$(TARGET_COPY_OUT_ODM)/lib64/libthirdcapability.so \
     vendor/oneplus/sm8550-common/proprietary/odm/lib64/libtriplecam_optical_zoom_control.so:$(TARGET_COPY_OUT_ODM)/lib64/libtriplecam_optical_zoom_control.so \
     vendor/oneplus/sm8550-common/proprietary/odm/lib64/libtriplecam_video_optical_zoom.so:$(TARGET_COPY_OUT_ODM)/lib64/libtriplecam_video_optical_zoom.so \
-    vendor/oneplus/sm8550-common/proprietary/odm/lib64/libui.so:$(TARGET_COPY_OUT_ODM)/lib64/libui.so \
     vendor/oneplus/sm8550-common/proprietary/odm/lib64/libwatermark_photo.so:$(TARGET_COPY_OUT_ODM)/lib64/libwatermark_photo.so \
     vendor/oneplus/sm8550-common/proprietary/odm/lib64/libwrapper_te.so:$(TARGET_COPY_OUT_ODM)/lib64/libwrapper_te.so \
     vendor/oneplus/sm8550-common/proprietary/odm/lib64/libyuv2.so:$(TARGET_COPY_OUT_ODM)/lib64/libyuv2.so \
