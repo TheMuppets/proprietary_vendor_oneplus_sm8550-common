@@ -138,6 +138,12 @@
             <Limit name="measured-frame-rate-1280x720" range="41-200" />
         </MediaCodec>
         <!-- #endif //OPLUS_BUG_COMPATIBILITY -->
+        <MediaCodec name="c2.android.av1-dav1d.decoder" type="video/av01" update="true">
+            <Limit name="measured-frame-rate-352x288" range="337-742" />
+            <Limit name="measured-frame-rate-640x360" range="249-548" />
+            <Limit name="measured-frame-rate-720x480" range="195-430" />
+            <Limit name="measured-frame-rate-1280x720" range="104-228" />
+        </MediaCodec>
         <MediaCodec name="c2.android.avc.decoder" type="video/avc" update="true">
             <!-- measured 98%:153-414 med:193/192 FLAKY(mn=61.7 < 96 - 414 < mx=423.7) -->
             <Limit name="measured-frame-rate-320x240" range="211-600" /> <!-- N=266 v98%=1.6 -->
