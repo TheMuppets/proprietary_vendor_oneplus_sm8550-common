@@ -2596,7 +2596,6 @@ PRODUCT_PACKAGES += \
     HotwordEnrollmentXGoogleHEXAGON \
     ImsRcsService \
     QCC \
-    QtiTelephony \
     QtiTelephonyService \
     WfdService \
     dpmserviceapp \
@@ -2609,17 +2608,22 @@ PRODUCT_PACKAGES += \
     uimservicelibrary \
     com.qti.dpmframework \
     dpmapi \
+    oplus-ims-ext \
     qcrilhook \
     vendor.qti.ims.connection-V1.0-java \
+    vendor.qti.ims.connectionaidlservice-V1-java \
     vendor.qti.ims.factory-V2.0-java \
     vendor.qti.ims.factory-V2.1-java \
     vendor.qti.ims.factory-V2.2-java \
+    vendor.qti.ims.factoryaidlservice-V1-java \
     vendor.qti.ims.rcssip-V1.0-java \
     vendor.qti.ims.rcssip-V1.1-java \
     vendor.qti.ims.rcssip-V1.2-java \
+    vendor.qti.ims.rcssipaidlservice-V1-java \
     vendor.qti.ims.rcsuce-V1.0-java \
     vendor.qti.ims.rcsuce-V1.1-java \
     vendor.qti.ims.rcsuce-V1.2-java \
+    vendor.qti.ims.rcsuceaidlservice-V1-java \
     android.hardware.gnss-aidl-service-qti \
     android.hardware.radio.config \
     android.hardware.security.keymint-service-qti \
