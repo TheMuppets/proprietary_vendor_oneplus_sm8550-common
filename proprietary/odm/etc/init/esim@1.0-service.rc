@@ -1,0 +1,7 @@
+service oplus.esim-1-0 /odm/bin/hw/vendor.oplus.hardware.esim@1.0-service
+    class core
+    user root
+    group root system
+
+on boot
+    chmod 0666 dev/esim-en
