@@ -155,7 +155,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/init/poweropt-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/poweropt-service.rc \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/init/qcrilNrd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qcrilNrd.rc \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/init/qdcmss.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qdcmss.rc \
-    vendor/oneplus/sm8550-common/proprietary/vendor/etc/init/qesdk-manager.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qesdk-manager.rc \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/init/qmipriod.debug.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qmipriod.debug.rc \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/init/qmipriod.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qmipriod.rc \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/init/qms.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qms.rc \
@@ -269,7 +268,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/seccomp_policy/gnss@2.0-xtwifi-client.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/gnss@2.0-xtwifi-client.policy \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/seccomp_policy/imsrtp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/imsrtp.policy \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/seccomp_policy/qcrilnr@2.0.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qcrilnr@2.0.policy \
-    vendor/oneplus/sm8550-common/proprietary/vendor/etc/seccomp_policy/qesdk.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qesdk.policy \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/seccomp_policy/qms.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qms.policy \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/seccomp_policy/qspm.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qspm.policy \
     vendor/oneplus/sm8550-common/proprietary/vendor/etc/seccomp_policy/qti-systemd.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qti-systemd.policy \
@@ -614,7 +612,6 @@ PRODUCT_PACKAGES += \
     liblocation_api_msg \
     liblocation_client_api \
     liblocation_integration_api \
-    liblocation_qesdk \
     liblocationservice \
     liblocationservice_glue \
     liblocdiagiface \
@@ -718,7 +715,6 @@ PRODUCT_PACKAGES += \
     libqdp \
     libqdpr \
     libqesdk2_0 \
-    libqesdk_manager \
     libqisl \
     libqmi \
     libqmi_cci \
@@ -1004,12 +1000,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.memory.pasrmanager@1.0 \
     vendor.qti.memory.pasrmanager@1.1 \
     vendor.qti.power.pasrmanager@1.0 \
-    vendor.qti.qesdhal@1.0 \
-    vendor.qti.qesdhal@1.1 \
-    vendor.qti.qesdhal@1.2 \
-    vendor.qti.qesdhal@1.3-impl \
-    vendor.qti.qesdhal@1.3 \
-    vendor.qti.qesdsys-V3-ndk \
     vendor.qti.qspmhal@1.0-impl \
     vendor.qti.qspmhal@1.0 \
     vendor_lib_rfsa_adsp_bm3a68v08s11n29_bin \
@@ -1338,7 +1328,6 @@ PRODUCT_PACKAGES += \
     ppd \
     qcc-vendor \
     qdcmss \
-    qesdk-manager \
     qmipriod \
     qms \
     qrtr-cfg \
