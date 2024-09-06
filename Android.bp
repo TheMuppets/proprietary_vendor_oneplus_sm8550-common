@@ -21090,6 +21090,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/vendor.libdpmframework.so",
             ],
             shared_libs: [
+                "libhidlbase_shim",
                 "libdiag",
                 "libbinder",
                 "libbinder_ndk",
