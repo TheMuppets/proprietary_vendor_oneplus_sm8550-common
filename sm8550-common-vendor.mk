@@ -992,7 +992,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8550-common/proprietary/odm/lib64/vendor.oplus.hardware.communicationcenter-V1-ndk.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.communicationcenter-V1-ndk.so \
     vendor/oneplus/sm8550-common/proprietary/odm/lib64/vendor.oplus.hardware.cwb@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.cwb@1.0.so \
     vendor/oneplus/sm8550-common/proprietary/odm/lib64/vendor.oplus.hardware.olc2-V1-ndk.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.olc2-V1-ndk.so \
-    vendor/oneplus/sm8550-common/proprietary/odm/lib64/vendor.oplus.hardware.osense.client-V1-ndk.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.osense.client-V1-ndk.so \
     vendor/oneplus/sm8550-common/proprietary/odm/lib64/vendor.oplus.hardware.performance-V1-ndk.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.performance-V1-ndk.so \
     vendor/oneplus/sm8550-common/proprietary/odm/lib64/vendor.oplus.hardware.sendextcamcmd-V1-ndk.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.sendextcamcmd-V1-ndk.so \
     vendor/oneplus/sm8550-common/proprietary/odm/lib64/vendor.oplus.hardware.sendextcamcmd-V1-service-impl.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.sendextcamcmd-V1-service-impl.so \
@@ -2292,7 +2291,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8550-common/proprietary/vendor/lib64/vendor.oplus.hardware.communicationcenter-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oplus.hardware.communicationcenter-V1-ndk.so \
     vendor/oneplus/sm8550-common/proprietary/vendor/lib64/vendor.oplus.hardware.cwb@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oplus.hardware.cwb@1.0.so \
     vendor/oneplus/sm8550-common/proprietary/vendor/lib64/vendor.oplus.hardware.ims-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oplus.hardware.ims-V1-ndk.so \
-    vendor/oneplus/sm8550-common/proprietary/vendor/lib64/vendor.oplus.hardware.osense.client-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oplus.hardware.osense.client-V1-ndk.so \
     vendor/oneplus/sm8550-common/proprietary/vendor/lib64/vendor.oplus.hardware.performance-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oplus.hardware.performance-V1-ndk.so \
     vendor/oneplus/sm8550-common/proprietary/vendor/lib64/vendor.oplus.hardware.radio-V2-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oplus.hardware.radio-V2-ndk_platform.so \
     vendor/oneplus/sm8550-common/proprietary/vendor/lib64/vendor.oplus.hardware.sendextcamcmd-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oplus.hardware.sendextcamcmd-V1-ndk.so \
