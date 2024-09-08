@@ -529,7 +529,7 @@ dex_import {
 }
 
 prebuilt_etc_xml {
-	name: "android.hardware.gnss-aidl-service-qti",
+	name: "android.hardware.gnss-aidl-service-qti.xml",
 	owner: "oneplus",
 	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.gnss-aidl-service-qti.xml",
 	filename_from_src: true,
@@ -538,7 +538,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "android.hardware.radio.config",
+	name: "android.hardware.radio.config.xml",
 	owner: "oneplus",
 	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.radio.config.xml",
 	filename_from_src: true,
@@ -547,7 +547,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "android.hardware.security.keymint-service-qti",
+	name: "android.hardware.security.keymint-service-qti.xml",
 	owner: "oneplus",
 	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.security.keymint-service-qti.xml",
 	filename_from_src: true,
@@ -556,7 +556,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "bttpi-saidl",
+	name: "bttpi-saidl.xml",
 	owner: "oneplus",
 	src: "proprietary/vendor/etc/vintf/manifest/bttpi-saidl.xml",
 	filename_from_src: true,
@@ -565,7 +565,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "c2_manifest_vendor",
+	name: "c2_manifest_vendor.xml",
 	owner: "oneplus",
 	src: "proprietary/vendor/etc/vintf/manifest/c2_manifest_vendor.xml",
 	filename_from_src: true,
@@ -574,7 +574,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "c2_manifest_vendor_audio",
+	name: "c2_manifest_vendor_audio.xml",
 	owner: "oneplus",
 	src: "proprietary/vendor/etc/vintf/manifest/c2_manifest_vendor_audio.xml",
 	filename_from_src: true,
@@ -583,7 +583,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "deviceinfo-saidl",
+	name: "deviceinfo-saidl.xml",
 	owner: "oneplus",
 	src: "proprietary/vendor/etc/vintf/manifest/deviceinfo-saidl.xml",
 	filename_from_src: true,
@@ -592,7 +592,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "manifest_android.hardware.drm-service.widevine",
+	name: "manifest_android.hardware.drm-service.widevine.xml",
 	owner: "oneplus",
 	src: "proprietary/vendor/etc/vintf/manifest/manifest_android.hardware.drm-service.widevine.xml",
 	filename_from_src: true,
@@ -601,7 +601,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "qms-saidl",
+	name: "qms-saidl.xml",
 	owner: "oneplus",
 	src: "proprietary/vendor/etc/vintf/manifest/qms-saidl.xml",
 	filename_from_src: true,
@@ -610,7 +610,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "vendor.qti.camera.aon-impl-1.3",
+	name: "vendor.qti.camera.aon-impl-1.3.xml",
 	owner: "oneplus",
 	src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.camera.aon-impl-1.3.xml",
 	filename_from_src: true,
@@ -619,7 +619,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "vendor.qti.camera.postproc-impl",
+	name: "vendor.qti.camera.postproc-impl.xml",
 	owner: "oneplus",
 	src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.camera.postproc-impl.xml",
 	filename_from_src: true,
@@ -628,7 +628,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "vendor.qti.camera.provider",
+	name: "vendor.qti.camera.provider.xml",
 	owner: "oneplus",
 	src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.camera.provider.xml",
 	filename_from_src: true,
@@ -637,7 +637,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "vendor.qti.diag.hal.service",
+	name: "vendor.qti.diag.hal.service.xml",
 	owner: "oneplus",
 	src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.diag.hal.service.xml",
 	filename_from_src: true,
@@ -646,7 +646,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "vendor.qti.gnss-service",
+	name: "vendor.qti.gnss-service.xml",
 	owner: "oneplus",
 	src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.gnss-service.xml",
 	filename_from_src: true,
@@ -655,7 +655,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "vendor.qti.hardware.limits-service",
+	name: "vendor.qti.hardware.limits-service.xml",
 	owner: "oneplus",
 	src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.hardware.limits-service.xml",
 	filename_from_src: true,
@@ -664,7 +664,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "vendor.qti.hardware.perf",
+	name: "vendor.qti.hardware.perf.xml",
 	owner: "oneplus",
 	src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.hardware.perf.xml",
 	filename_from_src: true,
@@ -673,7 +673,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "vendor.qti.hardware.power.powermodule",
+	name: "vendor.qti.hardware.power.powermodule.xml",
 	owner: "oneplus",
 	src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.hardware.power.powermodule.xml",
 	filename_from_src: true,
@@ -682,7 +682,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "vendor.qti.hardware.qconfig@1.0-service",
+	name: "vendor.qti.hardware.qconfig@1.0-service.xml",
 	owner: "oneplus",
 	src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.hardware.qconfig@1.0-service.xml",
 	filename_from_src: true,
@@ -691,7 +691,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "vendor.qti.hardware.radio.qtiradioconfig",
+	name: "vendor.qti.hardware.radio.qtiradioconfig.xml",
 	owner: "oneplus",
 	src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.hardware.radio.qtiradioconfig.xml",
 	filename_from_src: true,
@@ -700,7 +700,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "vendor.qti.hardware.servicetracker@1.2-service",
+	name: "vendor.qti.hardware.servicetracker@1.2-service.xml",
 	owner: "oneplus",
 	src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.hardware.servicetracker@1.2-service.xml",
 	filename_from_src: true,
@@ -709,7 +709,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "vendor.qti.hardware.vpp@2.0-service",
+	name: "vendor.qti.hardware.vpp@2.0-service.xml",
 	owner: "oneplus",
 	src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.hardware.vpp@2.0-service.xml",
 	filename_from_src: true,
@@ -718,7 +718,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "vendor.qti.hardware.wifidisplaysession-service",
+	name: "vendor.qti.hardware.wifidisplaysession-service.xml",
 	owner: "oneplus",
 	src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.hardware.wifidisplaysession-service.xml",
 	filename_from_src: true,
@@ -727,7 +727,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "android.hardware.contexthub-service.qmi",
+	name: "android.hardware.contexthub-service.qmi.xml",
 	owner: "oneplus",
 	src: "proprietary/odm/etc/vintf/manifest/android.hardware.contexthub-service.qmi.xml",
 	filename_from_src: true,
@@ -736,7 +736,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "device_manifest_communication_center_aidl",
+	name: "device_manifest_communication_center_aidl.xml",
 	owner: "oneplus",
 	src: "proprietary/odm/etc/vintf/manifest/device_manifest_communication_center_aidl.xml",
 	filename_from_src: true,
@@ -745,7 +745,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "manifest_oplus_cameraextension_aidl",
+	name: "manifest_oplus_cameraextension_aidl.xml",
 	owner: "oneplus",
 	src: "proprietary/odm/etc/vintf/manifest/manifest_oplus_cameraextension_aidl.xml",
 	filename_from_src: true,
@@ -754,7 +754,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "manifest_oplus_cammidasservice_aidl",
+	name: "manifest_oplus_cammidasservice_aidl.xml",
 	owner: "oneplus",
 	src: "proprietary/odm/etc/vintf/manifest/manifest_oplus_cammidasservice_aidl.xml",
 	filename_from_src: true,
@@ -763,7 +763,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "manifest_oplus_cwb",
+	name: "manifest_oplus_cwb.xml",
 	owner: "oneplus",
 	src: "proprietary/odm/etc/vintf/manifest/manifest_oplus_cwb.xml",
 	filename_from_src: true,
@@ -772,7 +772,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "manifest_oplus_fingerprint",
+	name: "manifest_oplus_fingerprint.xml",
 	owner: "oneplus",
 	src: "proprietary/odm/etc/vintf/manifest/manifest_oplus_fingerprint.xml",
 	filename_from_src: true,
@@ -781,7 +781,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "manifest_oplus_sendextcamcmd",
+	name: "manifest_oplus_sendextcamcmd.xml",
 	owner: "oneplus",
 	src: "proprietary/odm/etc/vintf/manifest/manifest_oplus_sendextcamcmd.xml",
 	filename_from_src: true,
@@ -790,7 +790,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "manifest_oplus_stability_project_aidl",
+	name: "manifest_oplus_stability_project_aidl.xml",
 	owner: "oneplus",
 	src: "proprietary/odm/etc/vintf/manifest/manifest_oplus_stability_project_aidl.xml",
 	filename_from_src: true,
@@ -799,7 +799,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "manifest_performance_aidl",
+	name: "manifest_performance_aidl.xml",
 	owner: "oneplus",
 	src: "proprietary/odm/etc/vintf/manifest/manifest_performance_aidl.xml",
 	filename_from_src: true,
@@ -808,7 +808,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "vendor.pixelworks.hardware.display@1.2",
+	name: "vendor.pixelworks.hardware.display@1.2.xml",
 	owner: "oneplus",
 	src: "proprietary/odm/etc/vintf/manifest/vendor.pixelworks.hardware.display@1.2.xml",
 	filename_from_src: true,
@@ -817,7 +817,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "vendor.pixelworks.hardware.feature.irisfeature-service",
+	name: "vendor.pixelworks.hardware.feature.irisfeature-service.xml",
 	owner: "oneplus",
 	src: "proprietary/odm/etc/vintf/manifest/vendor.pixelworks.hardware.feature.irisfeature-service.xml",
 	filename_from_src: true,

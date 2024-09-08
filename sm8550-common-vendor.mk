@@ -2514,39 +2514,39 @@ PRODUCT_PACKAGES += \
     vendor.qti.ims.rcsuce-V1.1-java \
     vendor.qti.ims.rcsuce-V1.2-java \
     vendor.qti.ims.rcsuceaidlservice-V1-java \
-    android.hardware.gnss-aidl-service-qti \
-    android.hardware.radio.config \
-    android.hardware.security.keymint-service-qti \
-    bttpi-saidl \
-    c2_manifest_vendor \
-    c2_manifest_vendor_audio \
-    deviceinfo-saidl \
-    manifest_android.hardware.drm-service.widevine \
-    qms-saidl \
-    vendor.qti.camera.aon-impl-1.3 \
-    vendor.qti.camera.postproc-impl \
-    vendor.qti.camera.provider \
-    vendor.qti.diag.hal.service \
-    vendor.qti.gnss-service \
-    vendor.qti.hardware.limits-service \
-    vendor.qti.hardware.perf \
-    vendor.qti.hardware.power.powermodule \
-    vendor.qti.hardware.qconfig@1.0-service \
-    vendor.qti.hardware.radio.qtiradioconfig \
-    vendor.qti.hardware.servicetracker@1.2-service \
-    vendor.qti.hardware.vpp@2.0-service \
-    vendor.qti.hardware.wifidisplaysession-service \
-    android.hardware.contexthub-service.qmi \
-    device_manifest_communication_center_aidl \
-    manifest_oplus_cameraextension_aidl \
-    manifest_oplus_cammidasservice_aidl \
-    manifest_oplus_cwb \
-    manifest_oplus_fingerprint \
-    manifest_oplus_sendextcamcmd \
-    manifest_oplus_stability_project_aidl \
-    manifest_performance_aidl \
-    vendor.pixelworks.hardware.display@1.2 \
-    vendor.pixelworks.hardware.feature.irisfeature-service
+    android.hardware.gnss-aidl-service-qti.xml \
+    android.hardware.radio.config.xml \
+    android.hardware.security.keymint-service-qti.xml \
+    bttpi-saidl.xml \
+    c2_manifest_vendor.xml \
+    c2_manifest_vendor_audio.xml \
+    deviceinfo-saidl.xml \
+    manifest_android.hardware.drm-service.widevine.xml \
+    qms-saidl.xml \
+    vendor.qti.camera.aon-impl-1.3.xml \
+    vendor.qti.camera.postproc-impl.xml \
+    vendor.qti.camera.provider.xml \
+    vendor.qti.diag.hal.service.xml \
+    vendor.qti.gnss-service.xml \
+    vendor.qti.hardware.limits-service.xml \
+    vendor.qti.hardware.perf.xml \
+    vendor.qti.hardware.power.powermodule.xml \
+    vendor.qti.hardware.qconfig@1.0-service.xml \
+    vendor.qti.hardware.radio.qtiradioconfig.xml \
+    vendor.qti.hardware.servicetracker@1.2-service.xml \
+    vendor.qti.hardware.vpp@2.0-service.xml \
+    vendor.qti.hardware.wifidisplaysession-service.xml \
+    android.hardware.contexthub-service.qmi.xml \
+    device_manifest_communication_center_aidl.xml \
+    manifest_oplus_cameraextension_aidl.xml \
+    manifest_oplus_cammidasservice_aidl.xml \
+    manifest_oplus_cwb.xml \
+    manifest_oplus_fingerprint.xml \
+    manifest_oplus_sendextcamcmd.xml \
+    manifest_oplus_stability_project_aidl.xml \
+    manifest_performance_aidl.xml \
+    vendor.pixelworks.hardware.display@1.2.xml \
+    vendor.pixelworks.hardware.feature.irisfeature-service.xml
 
 PRODUCT_PACKAGES += \
     libimscamera_jni_libimscamera_jni_symlink64 \
