@@ -72,4 +72,5 @@ shutdown: 1
 ioctl: 1
 nanosleep: 1
 
+gettid: 1
 pipe2: 1
