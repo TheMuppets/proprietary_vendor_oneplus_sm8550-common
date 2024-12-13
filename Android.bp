@@ -17797,8 +17797,6 @@ cc_prebuilt_library_shared {
             srcs: [
                 "proprietary/vendor/lib64/libsn100u_fw.so",
             ],
-            shared_libs: [
-            ],
         },
     },
     compile_multilib: "64",
