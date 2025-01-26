@@ -1401,9 +1401,6 @@ PRODUCT_PACKAGES += \
     libQtiRilLoadable \
     libRGBC \
     libSonyIMX471RmscLibrary \
-    lib_bt_aptx \
-    lib_bt_ble \
-    lib_bt_bundle \
     libaacvibrator \
     libadaptlaunch \
     libadm \
@@ -1417,11 +1414,7 @@ PRODUCT_PACKAGES += \
     libaodoptfeature \
     libapengine \
     libappclassifier \
-    libar-acdb \
-    libar-gpr \
-    libar-gsl \
     libar-pal \
-    libats \
     libaudio_log_utils \
     libbacklight-calib \
     libbatching \
@@ -1561,8 +1554,6 @@ PRODUCT_PACKAGES += \
     liblowi_common \
     liblowi_wifihal \
     liblqe \
-    liblx-ar_util \
-    liblx-osal \
     libmasc \
     libmcs \
     libmctfengine_stub \
@@ -1874,9 +1865,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.esepowermanager@1.1_vendor \
     vendor.qti.gnss-V5-ndk \
     vendor.qti.gnss-service \
-    vendor.qti.hardware.AGMIPC@1.0-impl \
-    vendor.qti.hardware.ListenSoundModel@1.0-impl \
-    vendor.qti.hardware.ListenSoundModel@1.0 \
     vendor.qti.hardware.alarm@1.0 \
     vendor.qti.hardware.bluetooth_sar@1.0 \
     vendor.qti.hardware.bluetooth_sar@1.1 \
