@@ -762,10 +762,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8550-common/proprietary/odm/etc/izat.conf:$(TARGET_COPY_OUT_ODM)/etc/izat.conf \
     vendor/oneplus/sm8550-common/proprietary/odm/etc/permissions/android.hardware.context_hub.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/android.hardware.context_hub.xml \
     vendor/oneplus/sm8550-common/proprietary/odm/etc/sap.conf:$(TARGET_COPY_OUT_ODM)/etc/sap.conf \
-    vendor/oneplus/sm8550-common/proprietary/odm/firmware/fastchg/22861/bms_heating_config.txt:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/22861/bms_heating_config.txt \
-    vendor/oneplus/sm8550-common/proprietary/odm/firmware/fastchg/22861/charging_hyper_mode_config.txt:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/22861/charging_hyper_mode_config.txt \
-    vendor/oneplus/sm8550-common/proprietary/odm/firmware/fastchg/22861/charging_thermal_config_default.txt:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/22861/charging_thermal_config_default.txt \
-    vendor/oneplus/sm8550-common/proprietary/odm/firmware/fastchg/smart_chg_config_table.txt:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/smart_chg_config_table.txt \
     vendor/oneplus/sm8550-common/proprietary/odm/firmware/ufs/SAMSUNG-KLUDG4UHDC-B0E1.bin:$(TARGET_COPY_OUT_ODM)/firmware/ufs/SAMSUNG-KLUDG4UHDC-B0E1.bin \
     vendor/oneplus/sm8550-common/proprietary/odm/firmware/ufs/SAMSUNG-KLUEG4RHHD-B0G1.bin:$(TARGET_COPY_OUT_ODM)/firmware/ufs/SAMSUNG-KLUEG4RHHD-B0G1.bin \
     vendor/oneplus/sm8550-common/proprietary/odm/firmware/ufs/SAMSUNG-KLUEG8UHDC-B0E1.bin:$(TARGET_COPY_OUT_ODM)/firmware/ufs/SAMSUNG-KLUEG8UHDC-B0E1.bin \
