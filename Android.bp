@@ -38788,6 +38788,8 @@ cc_prebuilt_binary {
                 "proprietary/odm/bin/hw/vendor-oplus-hardware-performance-V1-service",
             ],
             shared_libs: [
+                "libprocessgroup_shim",
+                "libbase_shim",
                 "vendor.oplus.hardware.performance-V2-ndk",
                 "libbase",
                 "libcutils",
