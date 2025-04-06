@@ -747,7 +747,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8550-common/proprietary/odm/etc/init/init.camera_process.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.camera_process.rc \
     vendor/oneplus/sm8550-common/proprietary/odm/etc/init/init.camera_upate.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.camera_upate.rc \
     vendor/oneplus/sm8550-common/proprietary/odm/etc/init/init.odm.camera.provider.override.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.odm.camera.provider.override.rc \
-    vendor/oneplus/sm8550-common/proprietary/odm/etc/init/occe_create.rc:$(TARGET_COPY_OUT_ODM)/etc/init/occe_create.rc \
     vendor/oneplus/sm8550-common/proprietary/odm/etc/init/vendor-oplus-hardware-performance-V1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor-oplus-hardware-performance-V1-service.rc \
     vendor/oneplus/sm8550-common/proprietary/odm/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc \
     vendor/oneplus/sm8550-common/proprietary/odm/etc/init/vendor.oplus.hardware.cammidasservice-V1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.cammidasservice-V1-service.rc \
@@ -2570,7 +2569,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.esepowermanager@1.1-service \
     vendor.qti.secure_element@1.2-service \
     irisConfig \
-    occe_create \
     oplus_sensor_fb
 
 PRODUCT_PACKAGES += \

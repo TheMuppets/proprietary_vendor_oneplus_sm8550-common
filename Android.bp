@@ -39066,32 +39066,6 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-    name: "occe_create",
-    owner: "oneplus",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/odm/bin/occe_create",
-            ],
-            shared_libs: [
-                "liblog",
-                "libGLESv3",
-                "libEGL",
-                "libdl",
-                "libc",
-                "libm",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    device_specific: true,
-}
-
-cc_prebuilt_binary {
     name: "oplus_sensor_fb",
     owner: "oneplus",
     target: {
