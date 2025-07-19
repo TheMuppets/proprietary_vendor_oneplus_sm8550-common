@@ -1843,7 +1843,6 @@ PRODUCT_PACKAGES += \
     vendor.oplus.hardware.cwb@1.0 \
     vendor.oplus.hardware.ims-V1-ndk \
     vendor.oplus.hardware.performance-V1-ndk_vendor \
-    vendor.oplus.hardware.radio-V2-ndk \
     vendor.oplus.hardware.stability.oplus_project-V1-ndk \
     vendor.pixelworks.hardware.display@1.0_vendor \
     vendor.pixelworks.hardware.display@1.1_vendor \
