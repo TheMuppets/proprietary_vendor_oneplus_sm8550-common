@@ -37880,12 +37880,12 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-    name: "ssgqmigd64",
+    name: "ssgqmigd",
     owner: "oneplus",
     target: {
         android_arm64: {
             srcs: [
-                "proprietary/vendor/bin/ssgqmigd64",
+                "proprietary/vendor/bin/ssgqmigd",
             ],
             shared_libs: [
                 "liblog",

@@ -2532,7 +2532,7 @@ PRODUCT_PACKAGES += \
     shsusrd \
     slim_daemon \
     sscrpcd \
-    ssgqmigd64 \
+    ssgqmigd \
     ssgtzd \
     system_dlkm_modprobe \
     tftp_server \
