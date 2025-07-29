@@ -548,7 +548,6 @@ PRODUCT_PACKAGES += \
     libdiag \
     libdigital-dimming \
     libdisp-aba \
-    libdisplayconfig.qti \
     libdisplayqos \
     libdisplayskuutils \
     libdpmqmihal \
@@ -581,7 +580,6 @@ PRODUCT_PACKAGES += \
     libhdr_tm \
     libhdrdynamic \
     libhdrdynamicootf \
-    libhistogram \
     libidl \
     libintervmipc \
     libizat_client_api \
@@ -719,7 +717,6 @@ PRODUCT_PACKAGES += \
     libqdi \
     libqdp \
     libqdpr \
-    libqdutils \
     libqesdk2_0 \
     libqesdk_manager \
     libqisl \
@@ -764,14 +761,10 @@ PRODUCT_PACKAGES += \
     libscveObjectSegmentation_stub \
     libscveObjectTracker \
     libscveObjectTracker_stub \
-    libsdedrm \
     libsdm-color \
     libsdm-colormgr-algo \
     libsdm-disp-vndapis \
-    libsdmcore \
-    libsdmdal \
     libsdmextension \
-    libsdmutils \
     libsdsprpc \
     libsensorcal \
     libsensorslog \
@@ -1315,7 +1308,6 @@ PRODUCT_PACKAGES += \
     vendor.display.color@1.0-service \
     vendor.qti.hardware.alarm@1.0-service \
     vendor.qti.hardware.capabilityconfigstore@1.0-service \
-    vendor.qti.hardware.display.composer-service \
     vendor.qti.hardware.factory@1.0-service \
     vendor.qti.hardware.iop@2.0-service \
     vendor.qti.hardware.limits@1.2-service \
