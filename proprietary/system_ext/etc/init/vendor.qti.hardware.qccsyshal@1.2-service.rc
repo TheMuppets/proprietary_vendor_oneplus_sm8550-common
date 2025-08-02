@@ -4,6 +4,9 @@
 # Confidential and Proprietary - Qualcomm Technologies, Inc.
 #
 
+on property:ro.boot.product.vendor.sku=sun
+    stop qccsyshal@1.2-service
+
 on post-fs-data
     mkdir /dev/socket/qcc_app 0770 system misc
     chmod 2770 /dev/socket/qcc_app
