@@ -1,0 +1,12 @@
+service horae /system_ext/bin/horae
+	class hal
+	user system
+	group system readproc root
+	disabled
+
+on property:sys.boot_completed=1 && property:persist.sys.horae.enable=0
+	stop horae
+
+on property:sys.boot_completed=1 && property:persist.sys.horae.enable=1
+	start horae
+
