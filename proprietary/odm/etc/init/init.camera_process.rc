@@ -1,3 +1,0 @@
-on post-fs-data
-    mkdir /data/vendor/camera_process 0777 camera camera
-    mkdir /data/vendor/camera_process/livephoto 0777 camera camera

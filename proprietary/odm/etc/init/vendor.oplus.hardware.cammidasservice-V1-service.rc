@@ -1,5 +1,0 @@
-service oplus.hal.cammidasservice-1-0 /odm/bin/hw/vendor.oplus.hardware.cammidasservice-V1-service
-    class hal
-    user system
-    group system
-    interface aidl vendor.oplus.hardware.cammidasservice.IMIDASService/default
