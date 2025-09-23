@@ -22,3 +22,21 @@
 
 gettid: 1
 sigaltstack: 1
+
+bind: 1
+getrlimit: 1
+pipe2: 1
+sched_getaffinity: 1
+timerfd_create: 1
+unlinkat: 1
+setpriority: 1
+epoll_create1: 1
+epoll_ctl: 1
+epoll_pwait: 1
+timerfd_settime: 1
+fdatasync: 1
+madvise: 1
+ftruncate: 1
+
+sysinfo: 1
+uname: 1
