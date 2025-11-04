@@ -1168,7 +1168,6 @@ PRODUCT_PACKAGES += \
     libifaa_factory \
     liblvacfs_wrapper \
     libolc_vnd \
-    liboplus-uah-client \
     liboplus_service \
     libosenseaidlhalclient \
     libpwirisIoctlWrapper \
