@@ -1185,7 +1185,6 @@ PRODUCT_PACKAGES += \
     libsnapdragoncolor-pxlw \
     libtfa98xx \
     vendor.oplus.hardware.communicationcenter-V2-ndk \
-    vendor.oplus.hardware.olc2-V2-ndk \
     vendor.pixelworks.hardware.display@1.0 \
     vendor.pixelworks.hardware.display@1.1 \
     vendor.pixelworks.hardware.display@1.2 \
