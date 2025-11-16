@@ -1,0 +1,77 @@
+#ifdef OPLUS_QDSS_DIAG
+#ZhuYan@Network.RF, 2020/10/10, Add for qdss system
+on boot
+    chown root oem_2902 /sys/bus/coresight/devices/coresight-tmc-etr/block_size
+    chmod 660 /sys/bus/coresight/devices/coresight-tmc-etr/block_size
+    chown root oem_2902 /sys/bus/coresight/devices/coresight-tmc-etr/buffer_size
+    chmod 660 /sys/bus/coresight/devices/coresight-tmc-etr/buffer_size
+    chown root oem_2902 /sys/bus/coresight/devices/coresight-tmc-etr1/block_size
+    chmod 660 /sys/bus/coresight/devices/coresight-tmc-etr1/block_size
+    chown root oem_2902 /sys/bus/coresight/devices/coresight-tmc-etr1/buffer_size
+    chmod 660 /sys/bus/coresight/devices/coresight-tmc-etr1/buffer_size
+    chown root oem_2902 /sys/bus/coresight/reset_source_sink
+    chmod 660 /sys/bus/coresight/reset_source_sink
+
+    #reduce qdss log
+    write /sys/bus/coresight/reset_source_sink 1
+    write /sys/bus/coresight/devices/coresight-stm/hwevent_enable 0
+    write /sys/bus/coresight/devices/coresight-stm/port_select 0x10000003
+    #liuhaituo@MULTIMEDIA.AUDIODRIVER.HAL, increase buffer_size from 1M to 32M
+    write /sys/bus/coresight/devices/coresight-tmc-etr/buffer_size 0x2000000
+    write /sys/bus/coresight/devices/coresight-tmc-etr1/buffer_size 0x2000000
+    #disable ftrace
+    write /sys/kernel/tracing/instances/usb/tracing_on 0
+    write /sys/kernel/debug/tracing/tracing_on 0
+    write /sys/kernel/debug/tracing/events/enable 0
+#endif /* OPLUS_QDSS_DIAG */
+
+#ifdef OPLUS_FEATURE_DEVICE_LOG
+#ZhuYan@NetWork.RF.xxx, 2020/09/27, Add for device log 8350R
+#ZhuYan@Network.RF, 2020/10/10, Modify for qdss system
+on post-fs-data
+    mkdir /data/vendor/oplus 0777 system system
+    mkdir /data/vendor/oplus/log 0777 system system
+    mkdir /data/vendor/oplus/log/device_log 0777 system system
+    mkdir /data/vendor/oplus/log/device_log/config 0777 system system
+    mkdir /data/vendor/oplus/log/device_log/diag_logs 0777 system system
+
+service oplus_diag_mdlog_start /system/vendor/bin/diag_mdlog -c -u -q 0x2006 -j 1 -o /data/vendor/oplus/log/device_log/diag_logs
+    class late_start
+    user system
+    group system oem_2901 oem_2902 sdcard_rw sdcard_r media_rw
+    disabled
+    oneshot
+
+service oplus_diag_mdlog_stop /system/vendor/bin/diag_mdlog -k
+    class late_start
+    user system
+    group system oem_2901 oem_2902 sdcard_rw sdcard_r media_rw
+    disabled
+    oneshot
+
+service oplus_diag_mdlog_nrt /system/vendor/bin/diag_mdlog -c -b -u -o /data/vendor/oplus/log/device_log/diag_logs
+    class late_start
+    user system
+    group system oem_2901 oem_2902 sdcard_rw sdcard_r media_rw
+    disabled
+    oneshot
+
+
+#ifdef OPLUS_FEATURE_MODEM_MINIDUMP
+on boot
+    write /proc/sys/fs/suid_dumpable 1
+    setprop persist.vendor.radio.force_on_dc true
+    chmod 0664 /dev/mdmreason
+    chown system system /dev/mdmreason
+#endif
+
+#endif /*OPLUS_FEATURE_DEVICE_LOG*/
+
+#ifdef OPLUS_FEATURE_ODM_RF_ICC
+ # Huo.Chen@SYSTEM.RF, 2024/09/06, Add for ICC
+on boot && property:persist.vendor.oplus.icc.module.enable=1
+    chmod 0660 /dev/iccmcu_dev
+    chown system system /dev/iccmcu_dev
+    chmod 0660 /dev/ttyHS5
+    chown system system /dev/ttyHS5
+#endif /* OPLUS_FEATURE_ODM_RF_ICC */

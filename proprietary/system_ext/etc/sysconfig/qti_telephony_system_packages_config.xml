@@ -58,10 +58,6 @@ Full documentation at frameworks/base/data/etc/preinstalled-packages-platform.xm
         <install-in user-type="SYSTEM" />
     </install-in-user-type>
 
-    <install-in-user-type package="com.qualcomm.qti.callfeaturessetting">
-        <install-in user-type="SYSTEM" />
-    </install-in-user-type>
-
     <install-in-user-type package="org.codeaurora.dialer">
         <install-in user-type="SYSTEM" />
         <install-in user-type="FULL" />

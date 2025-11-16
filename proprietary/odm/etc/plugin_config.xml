@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin_config>
+    <item name="rfapis" path="/odm/lib64/librfapis.so" />
+    <item name="libnvramapisv1" path="/odm/lib64/libnvramapisv1.so" />
+    <item name="libnvramapisv2" path="/odm/lib64/libnvramapisv2.so" />
+    <item name="libqms_client" path="/vendor/lib64/libqms_client.so" />
+    <item name="libdisplayhidlapis" path="/odm/lib64/libdisplayhidlapis.so" />
+    <item name="libdisplayaidlapis" path="/odm/lib64/libdisplayaidlapis.so" />
+    <item name="libnvram" path="/odm/lib64/libnvram.so" />
+    <item name="libimsortcapis" path="/odm/lib64/libimsortcapis.so" />
+    <item name="libttsatellite-rpc801" path="/odm/lib64/libttsatellite-rpc801.so" />
+    <item name="libiccapis" path="/odm/lib64/libiccapis.so" />
+</plugin_config>

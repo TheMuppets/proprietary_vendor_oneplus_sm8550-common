@@ -1,0 +1,71 @@
+on post-fs-data
+    mkdir /data/vendor/olog 0777 system root
+
+on property:ro.boot.hardware=qcom && property:vendor.oplus.radio.subsys_daemon.restart=1
+    stop qti-modem-daemon-0
+    start qti-modem-daemon-0
+
+on property:ro.boot.hardware=qcom && property:vendor.oplus.radio.subsys_daemon.restart=2
+    stop qti-modem-daemon-1
+    start qti-modem-daemon-1
+
+on property:ro.soc.manufacturer=Mediatek && property:vendor.oplus.radio.subsys_daemon.restart=1
+    stop mtk-modem-daemon-0
+    start mtk-modem-daemon-0
+
+on property:ro.boot.hardware=qcom && property:persist.radio.multisim.config=dsds && property:ro.carrier=unknown
+    stop qti-modem-daemon-1
+    start qti-modem-daemon-1
+
+on property:ro.boot.hardware=qcom && property:persist.radio.multisim.config=dsds && property:ro.carrier=""
+    stop qti-modem-daemon-1
+    start qti-modem-daemon-1
+
+on property:ro.boot.hardware=qcom && property:persist.radio.multisim.config=dsda
+    stop qti-modem-daemon-1
+    start qti-modem-daemon-1
+
+on property:ro.boot.hardware=qcom && property:persist.radio.multisim.config=ssss
+    stop qti-modem-daemon-1
+
+on property:ro.boot.hardware=qcom
+    start qti-modem-daemon-0
+
+on property:ro.soc.manufacturer=Mediatek
+    stop mtk-modem-daemon-0
+    start mtk-modem-daemon-0
+
+on property:vendor.copy_dcs_olog=1
+    start copyDcsOlog
+    setprop vendor.copy_dcs_olog 0
+
+service copyDcsOlog /system/bin/sh /system/system_ext/bin/cmd.subsys.sh "copyDcsOlog"
+    class core
+    user root
+    group root system everybody sdcard_rw media_rw
+    oneshot
+    disabled
+
+service subsys-sh /vendor/bin/sh /odm/bin/init.subsys.sh
+    class main
+    user root
+    group root system radio
+    oneshot
+
+service qti-modem-daemon-0 /odm/bin/hw/subsys_daemon -l /odm/lib64/libqti-radio-service.so -i 0
+    class hal
+    user root
+    group system everybody sdcard_rw media_rw vendor_qti_diag
+    disabled
+
+service qti-modem-daemon-1 /odm/bin/hw/subsys_daemon -l /odm/lib64/libqti-radio-service.so -i 1
+    class hal
+    user root
+    group system everybody sdcard_rw media_rw
+    disabled
+
+service mtk-modem-daemon-0 /odm/bin/hw/subsys_daemon -l /odm/lib64/libmtk-radio-service.so -i 0
+    class hal
+    user root
+    group radio net_admin net_raw cache inet misc audio log readproc wakelock sdcard_r sdcard_rw system
+    disabled

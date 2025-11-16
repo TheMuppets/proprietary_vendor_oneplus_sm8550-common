@@ -7,3 +7,5 @@ libOpenCL.so
 libAncFilter.so
 libarcsoft_scbokeh_video.so
 libQEGA.qti.so
+libaiboost.so
+libaiboost_llm.so

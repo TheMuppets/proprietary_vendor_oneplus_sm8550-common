@@ -1,6 +1,6 @@
-# Copyright (c) 2018 - 2020 Qualcomm Technologies, Inc.
-# All Rights Reserved.
-# Confidential and Proprietary - Qualcomm Technologies, Inc.
+#Copyright (c) Qualcomm Technologies, Inc. and/or its subsidiaries. 
+#All rights reserved.
+#Confidential and Proprietary - Qualcomm Technologies, Inc
 
 # Create the directories used by DPM subsystem
 
@@ -11,6 +11,7 @@ on post-fs-data
 #start dpmd service
 service dpmd /system/system_ext/bin/dpmd
     class late_start
+    user root
     socket dpmd stream 660 root radio
     socket tcm  stream 660 root inet
     socket dpmwrapper stream 660 root inet

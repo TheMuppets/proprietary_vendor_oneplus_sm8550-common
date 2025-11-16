@@ -6,23 +6,28 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/oneplus/sm8550-common
 
 PRODUCT_COPY_FILES += \
+    vendor/oneplus/sm8550-common/proprietary/odm/etc/QtiFtmPublicKey.pem:$(TARGET_COPY_OUT_ODM)/etc/QtiFtmPublicKey.pem \
     vendor/oneplus/sm8550-common/proprietary/odm/etc/charge.cfg:$(TARGET_COPY_OUT_ODM)/etc/charge.cfg \
     vendor/oneplus/sm8550-common/proprietary/odm/etc/init/android.hardware.contexthub-service.qmi.rc:$(TARGET_COPY_OUT_ODM)/etc/init/android.hardware.contexthub-service.qmi.rc \
+    vendor/oneplus/sm8550-common/proprietary/odm/etc/init/commcenterd.rc:$(TARGET_COPY_OUT_ODM)/etc/init/commcenterd.rc \
     vendor/oneplus/sm8550-common/proprietary/odm/etc/init/esim@1.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/esim@1.0-service.rc \
     vendor/oneplus/sm8550-common/proprietary/odm/etc/init/hw/init.oplus.display.rc:$(TARGET_COPY_OUT_ODM)/etc/init/hw/init.oplus.display.rc \
+    vendor/oneplus/sm8550-common/proprietary/odm/etc/init/init.network.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.network.rc \
     vendor/oneplus/sm8550-common/proprietary/odm/etc/init/init.oplus.sensor.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.oplus.sensor.rc \
     vendor/oneplus/sm8550-common/proprietary/odm/etc/init/init.oppo.reserve.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.oppo.reserve.rc \
     vendor/oneplus/sm8550-common/proprietary/odm/etc/init/init.touchDaemon.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.touchDaemon.rc \
+    vendor/oneplus/sm8550-common/proprietary/odm/etc/init/subsys_daemon.rc:$(TARGET_COPY_OUT_ODM)/etc/init/subsys_daemon.rc \
     vendor/oneplus/sm8550-common/proprietary/odm/etc/init/vendor-oplus-hardware-touch-V2-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor-oplus-hardware-touch-V2-service.rc \
     vendor/oneplus/sm8550-common/proprietary/odm/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc \
     vendor/oneplus/sm8550-common/proprietary/odm/etc/init/vendor.oplus.hardware.biometrics.fingerprintpay@1.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.biometrics.fingerprintpay@1.0-service.rc \
-    vendor/oneplus/sm8550-common/proprietary/odm/etc/init/vendor.oplus.hardware.charger-V6-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.charger-V6-service.rc \
+    vendor/oneplus/sm8550-common/proprietary/odm/etc/init/vendor.oplus.hardware.charger-V9-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.charger-V9-service.rc \
     vendor/oneplus/sm8550-common/proprietary/odm/etc/init/vendor.oplus.hardware.stability.oplus_project-V1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.stability.oplus_project-V1-service.rc \
     vendor/oneplus/sm8550-common/proprietary/odm/etc/init/vendor.pixelworks.hardware.feature.irisfeature-service-lazy.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.pixelworks.hardware.feature.irisfeature-service-lazy.rc \
     vendor/oneplus/sm8550-common/proprietary/odm/etc/init/vendor.qti.esepowermanager@1.1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.qti.esepowermanager@1.1-service.rc \
     vendor/oneplus/sm8550-common/proprietary/odm/etc/init/vendor.qti.secure_element@1.2-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.qti.secure_element@1.2-service.rc \
     vendor/oneplus/sm8550-common/proprietary/odm/etc/izat.conf:$(TARGET_COPY_OUT_ODM)/etc/izat.conf \
     vendor/oneplus/sm8550-common/proprietary/odm/etc/permissions/android.hardware.context_hub.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/android.hardware.context_hub.xml \
+    vendor/oneplus/sm8550-common/proprietary/odm/etc/plugin_config.xml:$(TARGET_COPY_OUT_ODM)/etc/plugin_config.xml \
     vendor/oneplus/sm8550-common/proprietary/odm/etc/sap.conf:$(TARGET_COPY_OUT_ODM)/etc/sap.conf \
     vendor/oneplus/sm8550-common/proprietary/odm/vendor/firmware/alipay.b00:$(TARGET_COPY_OUT_ODM)/vendor/firmware/alipay.b00 \
     vendor/oneplus/sm8550-common/proprietary/odm/vendor/firmware/alipay.b01:$(TARGET_COPY_OUT_ODM)/vendor/firmware/alipay.b01 \
@@ -44,6 +49,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8550-common/proprietary/system_ext/etc/horae/horae_SM8550.conf:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/horae/horae_SM8550.conf \
     vendor/oneplus/sm8550-common/proprietary/system_ext/etc/init/dpmd.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/dpmd.rc \
     vendor/oneplus/sm8550-common/proprietary/system_ext/etc/init/horae.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/horae.rc \
+    vendor/oneplus/sm8550-common/proprietary/system_ext/etc/init/qspa_system.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/qspa_system.rc \
     vendor/oneplus/sm8550-common/proprietary/system_ext/etc/init/tcmd.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/tcmd.rc \
     vendor/oneplus/sm8550-common/proprietary/system_ext/etc/init/vendor.qti.hardware.qccsyshal@1.2-service.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/vendor.qti.hardware.qccsyshal@1.2-service.rc \
     vendor/oneplus/sm8550-common/proprietary/system_ext/etc/init/wfdservice.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/wfdservice.rc \
@@ -54,8 +60,9 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8550-common/proprietary/system_ext/etc/permissions/qti_libpermissions.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/qti_libpermissions.xml \
     vendor/oneplus/sm8550-common/proprietary/system_ext/etc/permissions/qti_permissions.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/qti_permissions.xml \
     vendor/oneplus/sm8550-common/proprietary/system_ext/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml \
-    vendor/oneplus/sm8550-common/proprietary/system_ext/etc/permissions/vendor.qti.ims.rcsservice.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/vendor.qti.ims.rcsservice.xml \
+    vendor/oneplus/sm8550-common/proprietary/system_ext/etc/permissions/vendor.qti.imsdatachannel.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/vendor.qti.imsdatachannel.xml \
     vendor/oneplus/sm8550-common/proprietary/system_ext/etc/permissions/wfd-system-ext-privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/wfd-system-ext-privapp-permissions-qti.xml \
+    vendor/oneplus/sm8550-common/proprietary/system_ext/etc/qspa/qspa_default.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/qspa/qspa_default.rc \
     vendor/oneplus/sm8550-common/proprietary/system_ext/etc/seccomp_policy/tcmd.policy:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/seccomp_policy/tcmd.policy \
     vendor/oneplus/sm8550-common/proprietary/system_ext/etc/seccomp_policy/wfdservice64.policy:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/seccomp_policy/wfdservice64.policy \
     vendor/oneplus/sm8550-common/proprietary/system_ext/etc/sysconfig/qti_telephony_system_packages_config.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/qti_telephony_system_packages_config.xml \
@@ -1123,7 +1130,7 @@ PRODUCT_PACKAGES += \
     libwfduibcsinkinterface \
     libwfduibcsrc \
     libwfduibcsrcinterface \
-    vendor.qti.ImsRtpService-V1-ndk \
+    vendor.qti.ImsRtpService-V2-ndk \
     vendor.qti.diaghal@1.0 \
     vendor.qti.hardware.dpmaidlservice-V1-ndk \
     vendor.qti.hardware.dpmservice@1.0 \
@@ -1134,6 +1141,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.qccvndhal@1.0 \
     vendor.qti.hardware.wifidisplaysession@1.0 \
     vendor.qti.hardware.wifidisplaysession_aidl-V1-ndk \
+    vendor.qti.ims.datachannelservice-V3-ndk \
     vendor.qti.imsrtpservice@3.0 \
     vendor.qti.imsrtpservice@3.1 \
     vendor.qti.qccsyshal_aidl-V1-ndk \
@@ -1142,6 +1150,15 @@ PRODUCT_PACKAGES += \
     libQnnHtpPrepare.aiboost \
     libQnnHtpV73Stub.aiboost \
     libQnnSystem.aiboost \
+    libQnnHtpV73Skel.aiframe_signed \
+    libQnnHtpV73Skel.aiframe_unsigned \
+    libQnnHtp.aiframe \
+    libQnnHtpPrepare.aiframe \
+    libQnnHtpV73Stub.aiframe \
+    libQnnSystem.aiframe \
+    libaiboost_qnn_external_delegate \
+    libqcom_llm \
+    libtransformer_lite \
     android.hardware.secure_element@1.0-impl \
     vendor.pixelworks.hardware.display@1.0-impl-1.2-i7 \
     vendor.qti.esepowermanager@1.1-impl \
@@ -1155,6 +1172,8 @@ PRODUCT_PACKAGES += \
     libQnnHtpV73Stub \
     libQnnSaver \
     lib_lvacfs \
+    libaiboost \
+    libaiboost_llm \
     libaiboost_qnn_sr \
     libaiboost_sr \
     libaiboost_te \
@@ -1167,6 +1186,8 @@ PRODUCT_PACKAGES += \
     libdmtpclient \
     libifaa_factory \
     liblvacfs_wrapper \
+    libmindroid-app \
+    libmindroid-framework \
     libolc_vnd \
     liboplus_service \
     libosenseaidlhalclient \
@@ -1179,11 +1200,20 @@ PRODUCT_PACKAGES += \
     libpwirisservicei7 \
     libpwirissoft \
     libpwsoftirisPCS \
+    libqti-radio-service \
+    libradio-service \
+    libradioapis \
+    librfapis \
     librpmbengclient \
     libsecurity_event_dcs_vnd \
     libsnapdragoncolor-pxlw \
+    libsubsys-service \
+    libsubsys-utils \
     libtfa98xx \
+    libvasapi \
     vendor.oplus.hardware.communicationcenter-V2-ndk \
+    vendor.oplus.hardware.subsys-V5-ndk \
+    vendor.oplus.hardware.subsys_radio-V8-ndk \
     vendor.pixelworks.hardware.display@1.0 \
     vendor.pixelworks.hardware.display@1.1 \
     vendor.pixelworks.hardware.display@1.2 \
@@ -1223,7 +1253,6 @@ PRODUCT_PACKAGES += \
     uimgbaservice \
     HotwordEnrollmentXGoogleHEXAGON_WIDEBAND \
     HotwordEnrollmentYGoogleHEXAGON_WIDEBAND \
-    ImsRcsService \
     QCC \
     QtiTelephonyService \
     SoterService \
@@ -1240,8 +1269,10 @@ PRODUCT_PACKAGES += \
     dpmapi \
     oplus-ims-ext \
     qcrilhook \
+    vendor.qti.hardware.c2pa-V1-java \
     vendor.qti.ims.connection-V1.0-java \
     vendor.qti.ims.connectionaidlservice-V1-java \
+    vendor.qti.ims.datachannelservice-V3-java \
     vendor.qti.ims.factory-V2.0-java \
     vendor.qti.ims.factory-V2.1-java \
     vendor.qti.ims.factory-V2.2-java \
@@ -1254,6 +1285,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.ims.rcsuce-V1.1-java \
     vendor.qti.ims.rcsuce-V1.2-java \
     vendor.qti.ims.rcsuceaidlservice-V1-java \
+    vendor.qti.imsdatachannel \
     android.hardware.gnss-aidl-service-qti.xml \
     android.hardware.radio.config.xml \
     android.hardware.radio.data.xml \
@@ -1275,6 +1307,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.wifidisplaysession-service.xml \
     android.hardware.contexthub-service.qmi.xml \
     device_manifest_communication_center_aidl.xml \
+    device_manifest_subsys.xml \
     manifest_oplus_charger_aidl.xml \
     manifest_oplus_cwb.xml \
     manifest_oplus_esim.xml \
@@ -1381,15 +1414,19 @@ PRODUCT_PACKAGES += \
     qccsyshal@1.2-service \
     tcmd \
     wfdservice64 \
+    commcenterd \
+    gauged \
+    subsys_daemon \
     vendor-oplus-hardware-touch-V2-service \
     vendor.oplus.hardware.biometrics.fingerprint@2.1-service_uff \
     vendor.oplus.hardware.biometrics.fingerprintpay@1.0-service \
-    vendor.oplus.hardware.charger-V6-service \
+    vendor.oplus.hardware.charger-V9-service \
     vendor.oplus.hardware.esim@1.0-service \
     vendor.oplus.hardware.stability.oplus_project-V1-service \
     vendor.pixelworks.hardware.feature.irisfeature-service \
     vendor.qti.esepowermanager@1.1-service \
     vendor.qti.secure_element@1.2-service \
+    init.subsys \
     irisConfig \
     oplus_sensor_fb \
     touchDaemon

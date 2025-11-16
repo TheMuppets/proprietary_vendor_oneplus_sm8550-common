@@ -49,8 +49,12 @@
             //fix 8550 encoding bitrate much lower than 8450 issue
             //"enc_bitrate_savings": 3
             //#else /*OPLUS_BUG_COMPATIBILITY*/
-            "enc_bitrate_savings": 0
+            "enc_bitrate_savings": 0,
             //#endif /*OPLUS_BUG_COMPATIBILITY*/
+            // #ifdef OPLUS_BUG_COMPATIBILITY
+            // SunQinhua@MULTIMEDIA.MEDIASERVER.PLAYER, output 4K video without color info as BT.709
+            "default_primaries_override":1
+            // #endif OPLUS_BUG_COMPATIBILITY
         },
 
         // "DolbyVision": {
