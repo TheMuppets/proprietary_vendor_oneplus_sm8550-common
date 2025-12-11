@@ -20346,7 +20346,7 @@ cc_prebuilt_library_shared {
                 "proprietary/system_ext/lib64/vendor.qti.hardware.qccsyshal@1.2-halimpl.so",
             ],
             shared_libs: [
-                "libprotobuf-cpp-full",
+                "libprotobuf-cpp-full-21.7",
                 "libcutils",
                 "liblog",
                 "libhidlbase",
@@ -25849,7 +25849,7 @@ cc_prebuilt_binary {
                 "android.hardware.health@2.0",
                 "libbinder_ndk",
                 "vendor.oplus.hardware.charger-V1-ndk",
-                "libprotobuf-cpp-lite",
+                "libprotobuf-cpp-lite-21.7",
                 "libostatslog",
                 "android.hardware.health-V1-ndk",
                 "vendor.oplus.hardware.displaypanelfeature@1.0",
