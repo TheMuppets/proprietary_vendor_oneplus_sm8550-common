@@ -23470,7 +23470,7 @@ cc_prebuilt_binary {
             ],
             shared_libs: [
                 "android.hardware.contexthub-V1-ndk",
-                "libbase",
+                "libbase-v33",
                 "libbinder_ndk",
                 "liblog",
                 "libsnsapi",
