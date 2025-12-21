@@ -18340,7 +18340,7 @@ cc_prebuilt_library_shared {
 }
 
 prebuilt_rfsa {
-    name: "bm3a68v08s11n29",
+    name: "vendor_lib_rfsa_adsp_bm3a68v08s11n29_bin",
     filename: "bm3a68v08s11n29.bin",
     owner: "oneplus",
     src: "proprietary/vendor/lib/rfsa/adsp/bm3a68v08s11n29.bin",
@@ -18349,7 +18349,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm3a68v08s11n30",
+    name: "vendor_lib_rfsa_adsp_bm3a68v08s11n30_bin",
     filename: "bm3a68v08s11n30.bin",
     owner: "oneplus",
     src: "proprietary/vendor/lib/rfsa/adsp/bm3a68v08s11n30.bin",
@@ -18358,7 +18358,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm3a68v08s11n35",
+    name: "vendor_lib_rfsa_adsp_bm3a68v08s11n35_bin",
     filename: "bm3a68v08s11n35.bin",
     owner: "oneplus",
     src: "proprietary/vendor/lib/rfsa/adsp/bm3a68v08s11n35.bin",
@@ -18367,7 +18367,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm3a68v08s11n36",
+    name: "vendor_lib_rfsa_adsp_bm3a68v08s11n36_bin",
     filename: "bm3a68v08s11n36.bin",
     owner: "oneplus",
     src: "proprietary/vendor/lib/rfsa/adsp/bm3a68v08s11n36.bin",
@@ -18376,7 +18376,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm3a68v08s11n37",
+    name: "vendor_lib_rfsa_adsp_bm3a68v08s11n37_bin",
     filename: "bm3a68v08s11n37.bin",
     owner: "oneplus",
     src: "proprietary/vendor/lib/rfsa/adsp/bm3a68v08s11n37.bin",
@@ -18385,7 +18385,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm3a68v08s11n38",
+    name: "vendor_lib_rfsa_adsp_bm3a68v08s11n38_bin",
     filename: "bm3a68v08s11n38.bin",
     owner: "oneplus",
     src: "proprietary/vendor/lib/rfsa/adsp/bm3a68v08s11n38.bin",
@@ -18394,7 +18394,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm3a68v08s11n39",
+    name: "vendor_lib_rfsa_adsp_bm3a68v08s11n39_bin",
     filename: "bm3a68v08s11n39.bin",
     owner: "oneplus",
     src: "proprietary/vendor/lib/rfsa/adsp/bm3a68v08s11n39.bin",
@@ -18403,7 +18403,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm3a68v08s11n40",
+    name: "vendor_lib_rfsa_adsp_bm3a68v08s11n40_bin",
     filename: "bm3a68v08s11n40.bin",
     owner: "oneplus",
     src: "proprietary/vendor/lib/rfsa/adsp/bm3a68v08s11n40.bin",
@@ -18412,7 +18412,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm3a68v08s11n46",
+    name: "vendor_lib_rfsa_adsp_bm3a68v08s11n46_bin",
     filename: "bm3a68v08s11n46.bin",
     owner: "oneplus",
     src: "proprietary/vendor/lib/rfsa/adsp/bm3a68v08s11n46.bin",
@@ -18421,7 +18421,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm3a68v08s11n47",
+    name: "vendor_lib_rfsa_adsp_bm3a68v08s11n47_bin",
     filename: "bm3a68v08s11n47.bin",
     owner: "oneplus",
     src: "proprietary/vendor/lib/rfsa/adsp/bm3a68v08s11n47.bin",
@@ -18430,7 +18430,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm3a68v08s11n48",
+    name: "vendor_lib_rfsa_adsp_bm3a68v08s11n48_bin",
     filename: "bm3a68v08s11n48.bin",
     owner: "oneplus",
     src: "proprietary/vendor/lib/rfsa/adsp/bm3a68v08s11n48.bin",
@@ -18439,7 +18439,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm3a68v08s11n49",
+    name: "vendor_lib_rfsa_adsp_bm3a68v08s11n49_bin",
     filename: "bm3a68v08s11n49.bin",
     owner: "oneplus",
     src: "proprietary/vendor/lib/rfsa/adsp/bm3a68v08s11n49.bin",
@@ -18448,7 +18448,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm3a68v08s11n52",
+    name: "vendor_lib_rfsa_adsp_bm3a68v08s11n52_bin",
     filename: "bm3a68v08s11n52.bin",
     owner: "oneplus",
     src: "proprietary/vendor/lib/rfsa/adsp/bm3a68v08s11n52.bin",
@@ -18457,7 +18457,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm3a68v08s11n53",
+    name: "vendor_lib_rfsa_adsp_bm3a68v08s11n53_bin",
     filename: "bm3a68v08s11n53.bin",
     owner: "oneplus",
     src: "proprietary/vendor/lib/rfsa/adsp/bm3a68v08s11n53.bin",
@@ -18466,7 +18466,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm3a73v08s11n02",
+    name: "vendor_lib_rfsa_adsp_bm3a73v08s11n02_bin",
     filename: "bm3a73v08s11n02.bin",
     owner: "oneplus",
     src: "proprietary/vendor/lib/rfsa/adsp/bm3a73v08s11n02.bin",
@@ -18475,7 +18475,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm3a73v08s11n03",
+    name: "vendor_lib_rfsa_adsp_bm3a73v08s11n03_bin",
     filename: "bm3a73v08s11n03.bin",
     owner: "oneplus",
     src: "proprietary/vendor/lib/rfsa/adsp/bm3a73v08s11n03.bin",
@@ -18484,7 +18484,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm3a73v08s11n04",
+    name: "vendor_lib_rfsa_adsp_bm3a73v08s11n04_bin",
     filename: "bm3a73v08s11n04.bin",
     owner: "oneplus",
     src: "proprietary/vendor/lib/rfsa/adsp/bm3a73v08s11n04.bin",
@@ -18493,7 +18493,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm3a73v08s11n06",
+    name: "vendor_lib_rfsa_adsp_bm3a73v08s11n06_bin",
     filename: "bm3a73v08s11n06.bin",
     owner: "oneplus",
     src: "proprietary/vendor/lib/rfsa/adsp/bm3a73v08s11n06.bin",
@@ -18502,7 +18502,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm3a73v08s11n07",
+    name: "vendor_lib_rfsa_adsp_bm3a73v08s11n07_bin",
     filename: "bm3a73v08s11n07.bin",
     owner: "oneplus",
     src: "proprietary/vendor/lib/rfsa/adsp/bm3a73v08s11n07.bin",
@@ -18511,7 +18511,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm3a73v08s11n08",
+    name: "vendor_lib_rfsa_adsp_bm3a73v08s11n08_bin",
     filename: "bm3a73v08s11n08.bin",
     owner: "oneplus",
     src: "proprietary/vendor/lib/rfsa/adsp/bm3a73v08s11n08.bin",
@@ -18520,7 +18520,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm3a73v08s11n09",
+    name: "vendor_lib_rfsa_adsp_bm3a73v08s11n09_bin",
     filename: "bm3a73v08s11n09.bin",
     owner: "oneplus",
     src: "proprietary/vendor/lib/rfsa/adsp/bm3a73v08s11n09.bin",
@@ -18529,7 +18529,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm3a73v08s11n12",
+    name: "vendor_lib_rfsa_adsp_bm3a73v08s11n12_bin",
     filename: "bm3a73v08s11n12.bin",
     owner: "oneplus",
     src: "proprietary/vendor/lib/rfsa/adsp/bm3a73v08s11n12.bin",
@@ -18538,7 +18538,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm3a73v08s11n13",
+    name: "vendor_lib_rfsa_adsp_bm3a73v08s11n13_bin",
     filename: "bm3a73v08s11n13.bin",
     owner: "oneplus",
     src: "proprietary/vendor/lib/rfsa/adsp/bm3a73v08s11n13.bin",
@@ -18547,7 +18547,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm3a73v08s11n14",
+    name: "vendor_lib_rfsa_adsp_bm3a73v08s11n14_bin",
     filename: "bm3a73v08s11n14.bin",
     owner: "oneplus",
     src: "proprietary/vendor/lib/rfsa/adsp/bm3a73v08s11n14.bin",
@@ -18556,7 +18556,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm3a73v08s11n15",
+    name: "vendor_lib_rfsa_adsp_bm3a73v08s11n15_bin",
     filename: "bm3a73v08s11n15.bin",
     owner: "oneplus",
     src: "proprietary/vendor/lib/rfsa/adsp/bm3a73v08s11n15.bin",
@@ -18565,7 +18565,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm3a73v08s11n16",
+    name: "vendor_lib_rfsa_adsp_bm3a73v08s11n16_bin",
     filename: "bm3a73v08s11n16.bin",
     owner: "oneplus",
     src: "proprietary/vendor/lib/rfsa/adsp/bm3a73v08s11n16.bin",
@@ -18574,7 +18574,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm3a73v08s11n17",
+    name: "vendor_lib_rfsa_adsp_bm3a73v08s11n17_bin",
     filename: "bm3a73v08s11n17.bin",
     owner: "oneplus",
     src: "proprietary/vendor/lib/rfsa/adsp/bm3a73v08s11n17.bin",
@@ -18583,7 +18583,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm3a73v08s11n18",
+    name: "vendor_lib_rfsa_adsp_bm3a73v08s11n18_bin",
     filename: "bm3a73v08s11n18.bin",
     owner: "oneplus",
     src: "proprietary/vendor/lib/rfsa/adsp/bm3a73v08s11n18.bin",
@@ -18592,7 +18592,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm3a73v08s11n19",
+    name: "vendor_lib_rfsa_adsp_bm3a73v08s11n19_bin",
     filename: "bm3a73v08s11n19.bin",
     owner: "oneplus",
     src: "proprietary/vendor/lib/rfsa/adsp/bm3a73v08s11n19.bin",
@@ -18601,7 +18601,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm3a73v08s11n20",
+    name: "vendor_lib_rfsa_adsp_bm3a73v08s11n20_bin",
     filename: "bm3a73v08s11n20.bin",
     owner: "oneplus",
     src: "proprietary/vendor/lib/rfsa/adsp/bm3a73v08s11n20.bin",
@@ -18610,7 +18610,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm3a73v08s11n21",
+    name: "vendor_lib_rfsa_adsp_bm3a73v08s11n21_bin",
     filename: "bm3a73v08s11n21.bin",
     owner: "oneplus",
     src: "proprietary/vendor/lib/rfsa/adsp/bm3a73v08s11n21.bin",
@@ -18619,7 +18619,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm3a73v08s11n22",
+    name: "vendor_lib_rfsa_adsp_bm3a73v08s11n22_bin",
     filename: "bm3a73v08s11n22.bin",
     owner: "oneplus",
     src: "proprietary/vendor/lib/rfsa/adsp/bm3a73v08s11n22.bin",
@@ -18628,7 +18628,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm3a73v08s11n23",
+    name: "vendor_lib_rfsa_adsp_bm3a73v08s11n23_bin",
     filename: "bm3a73v08s11n23.bin",
     owner: "oneplus",
     src: "proprietary/vendor/lib/rfsa/adsp/bm3a73v08s11n23.bin",
@@ -18637,7 +18637,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm3a73v08s11n24",
+    name: "vendor_lib_rfsa_adsp_bm3a73v08s11n24_bin",
     filename: "bm3a73v08s11n24.bin",
     owner: "oneplus",
     src: "proprietary/vendor/lib/rfsa/adsp/bm3a73v08s11n24.bin",
@@ -18646,7 +18646,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm3a73v08s11n25",
+    name: "vendor_lib_rfsa_adsp_bm3a73v08s11n25_bin",
     filename: "bm3a73v08s11n25.bin",
     owner: "oneplus",
     src: "proprietary/vendor/lib/rfsa/adsp/bm3a73v08s11n25.bin",
@@ -18655,7 +18655,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm3a73v08s11n26",
+    name: "vendor_lib_rfsa_adsp_bm3a73v08s11n26_bin",
     filename: "bm3a73v08s11n26.bin",
     owner: "oneplus",
     src: "proprietary/vendor/lib/rfsa/adsp/bm3a73v08s11n26.bin",
@@ -18664,7 +18664,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm3a73v08s11n27",
+    name: "vendor_lib_rfsa_adsp_bm3a73v08s11n27_bin",
     filename: "bm3a73v08s11n27.bin",
     owner: "oneplus",
     src: "proprietary/vendor/lib/rfsa/adsp/bm3a73v08s11n27.bin",
@@ -18673,7 +18673,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm3a73v08s11n28",
+    name: "vendor_lib_rfsa_adsp_bm3a73v08s11n28_bin",
     filename: "bm3a73v08s11n28.bin",
     owner: "oneplus",
     src: "proprietary/vendor/lib/rfsa/adsp/bm3a73v08s11n28.bin",
@@ -18682,7 +18682,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm3a73v08s11n41",
+    name: "vendor_lib_rfsa_adsp_bm3a73v08s11n41_bin",
     filename: "bm3a73v08s11n41.bin",
     owner: "oneplus",
     src: "proprietary/vendor/lib/rfsa/adsp/bm3a73v08s11n41.bin",
@@ -18691,7 +18691,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm3a73v08s11n42",
+    name: "vendor_lib_rfsa_adsp_bm3a73v08s11n42_bin",
     filename: "bm3a73v08s11n42.bin",
     owner: "oneplus",
     src: "proprietary/vendor/lib/rfsa/adsp/bm3a73v08s11n42.bin",
@@ -18700,7 +18700,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm3a73v08s11n43",
+    name: "vendor_lib_rfsa_adsp_bm3a73v08s11n43_bin",
     filename: "bm3a73v08s11n43.bin",
     owner: "oneplus",
     src: "proprietary/vendor/lib/rfsa/adsp/bm3a73v08s11n43.bin",
@@ -18709,7 +18709,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm3a73v08s11n44",
+    name: "vendor_lib_rfsa_adsp_bm3a73v08s11n44_bin",
     filename: "bm3a73v08s11n44.bin",
     owner: "oneplus",
     src: "proprietary/vendor/lib/rfsa/adsp/bm3a73v08s11n44.bin",
@@ -18718,7 +18718,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm3a73v08s11n45",
+    name: "vendor_lib_rfsa_adsp_bm3a73v08s11n45_bin",
     filename: "bm3a73v08s11n45.bin",
     owner: "oneplus",
     src: "proprietary/vendor/lib/rfsa/adsp/bm3a73v08s11n45.bin",
@@ -18727,7 +18727,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm3a73v08s11n50",
+    name: "vendor_lib_rfsa_adsp_bm3a73v08s11n50_bin",
     filename: "bm3a73v08s11n50.bin",
     owner: "oneplus",
     src: "proprietary/vendor/lib/rfsa/adsp/bm3a73v08s11n50.bin",
@@ -18736,7 +18736,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "bm3a73v08s11n51",
+    name: "vendor_lib_rfsa_adsp_bm3a73v08s11n51_bin",
     filename: "bm3a73v08s11n51.bin",
     owner: "oneplus",
     src: "proprietary/vendor/lib/rfsa/adsp/bm3a73v08s11n51.bin",
@@ -18745,7 +18745,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "chre_qsh_shim",
+    name: "vendor_lib_rfsa_adsp_chre_qsh_shim_so",
     filename: "chre_qsh_shim.so",
     owner: "oneplus",
     src: "proprietary/vendor/lib/rfsa/adsp/chre_qsh_shim.so",
@@ -18754,7 +18754,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libQ6MSFR_manager_skel",
+    name: "vendor_lib_rfsa_adsp_libQ6MSFR_manager_skel_so",
     filename: "libQ6MSFR_manager_skel.so",
     owner: "oneplus",
     src: "proprietary/vendor/lib/rfsa/adsp/libQ6MSFR_manager_skel.so",
@@ -18763,7 +18763,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libQnnHtpV73Skel_vendor",
+    name: "vendor_lib_rfsa_adsp_libQnnHtpV73Skel_so",
     filename: "libQnnHtpV73Skel.so",
     owner: "oneplus",
     src: "proprietary/vendor/lib/rfsa/adsp/libQnnHtpV73Skel.so",
@@ -18772,7 +18772,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libadsp_jpege_skel",
+    name: "vendor_lib_rfsa_adsp_libadsp_jpege_skel_so",
     filename: "libadsp_jpege_skel.so",
     owner: "oneplus",
     src: "proprietary/vendor/lib/rfsa/adsp/libadsp_jpege_skel.so",
@@ -18781,7 +18781,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libapn_dsp_skel",
+    name: "vendor_lib_rfsa_adsp_libapn_dsp_skel_so",
     filename: "libapn_dsp_skel.so",
     owner: "oneplus",
     src: "proprietary/vendor/lib/rfsa/adsp/libapn_dsp_skel.so",
@@ -18790,7 +18790,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libbitml_nsp_skel",
+    name: "vendor_lib_rfsa_adsp_libbitml_nsp_skel_so",
     filename: "libbitml_nsp_skel.so",
     owner: "oneplus",
     src: "proprietary/vendor/lib/rfsa/adsp/libbitml_nsp_skel.so",
@@ -18799,7 +18799,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libbitml_nsp_v2_skel",
+    name: "vendor_lib_rfsa_adsp_libbitml_nsp_v2_skel_so",
     filename: "libbitml_nsp_v2_skel.so",
     owner: "oneplus",
     src: "proprietary/vendor/lib/rfsa/adsp/libbitml_nsp_v2_skel.so",
@@ -18808,7 +18808,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libdsp_streamer_binning",
+    name: "vendor_lib_rfsa_adsp_libdsp_streamer_binning_so",
     filename: "libdsp_streamer_binning.so",
     owner: "oneplus",
     src: "proprietary/vendor/lib/rfsa/adsp/libdsp_streamer_binning.so",
@@ -18817,7 +18817,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libevadsp_3_0",
+    name: "vendor_lib_rfsa_adsp_libevadsp_3_0_so",
     filename: "libevadsp_3_0.so",
     owner: "oneplus",
     src: "proprietary/vendor/lib/rfsa/adsp/libevadsp_3_0.so",
@@ -18826,7 +18826,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libhdr_skel",
+    name: "vendor_lib_rfsa_adsp_libhdr_skel_so",
     filename: "libhdr_skel.so",
     owner: "oneplus",
     src: "proprietary/vendor/lib/rfsa/adsp/libhdr_skel.so",
@@ -18835,7 +18835,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libhme_dsp_skel",
+    name: "vendor_lib_rfsa_adsp_libhme_dsp_skel_so",
     filename: "libhme_dsp_skel.so",
     owner: "oneplus",
     src: "proprietary/vendor/lib/rfsa/adsp/libhme_dsp_skel.so",
@@ -18844,7 +18844,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libmctfengine_skel",
+    name: "vendor_lib_rfsa_adsp_libmctfengine_skel_so",
     filename: "libmctfengine_skel.so",
     owner: "oneplus",
     src: "proprietary/vendor/lib/rfsa/adsp/libmctfengine_skel.so",
@@ -18853,7 +18853,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libosie_skel",
+    name: "vendor_lib_rfsa_adsp_libosie_skel_so",
     filename: "libosie_skel.so",
     owner: "oneplus",
     src: "proprietary/vendor/lib/rfsa/adsp/libosie_skel.so",
@@ -18862,7 +18862,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "nearby.napp_header",
+    name: "vendor_lib_rfsa_adsp_nearby_napp_header",
     filename: "nearby.napp_header",
     owner: "oneplus",
     src: "proprietary/vendor/lib/rfsa/adsp/nearby.napp_header",
@@ -18871,7 +18871,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "nearby",
+    name: "vendor_lib_rfsa_adsp_nearby_so",
     filename: "nearby.so",
     owner: "oneplus",
     src: "proprietary/vendor/lib/rfsa/adsp/nearby.so",
@@ -22095,7 +22095,7 @@ cc_prebuilt_library_shared {
 }
 
 prebuilt_rfsa {
-    name: "libQnnHtpV73Skel.aiboost",
+    name: "odm_lib_rfsa_adsp_aiboost_libQnnHtpV73Skel_so",
     filename: "libQnnHtpV73Skel.so",
     owner: "oneplus",
     src: "proprietary/odm/lib/rfsa/adsp/aiboost/libQnnHtpV73Skel.so",
@@ -22104,7 +22104,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libaiboostubwc_skel.aiboost",
+    name: "odm_lib_rfsa_adsp_aiboost_libaiboostubwc_skel_so",
     filename: "libaiboostubwc_skel.so",
     owner: "oneplus",
     src: "proprietary/odm/lib/rfsa/adsp/aiboost/libaiboostubwc_skel.so",
@@ -22113,7 +22113,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "capi_v3_oprec",
+    name: "odm_lib_rfsa_adsp_capi_v3_oprec_so",
     filename: "capi_v3_oprec.so",
     owner: "oneplus",
     src: "proprietary/odm/lib/rfsa/adsp/capi_v3_oprec.so",
@@ -22122,7 +22122,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libCalculator_skel",
+    name: "odm_lib_rfsa_adsp_libCalculator_skel_so",
     filename: "libCalculator_skel.so",
     owner: "oneplus",
     src: "proprietary/odm/lib/rfsa/adsp/libCalculator_skel.so",
@@ -22131,7 +22131,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libQnnHtpV73",
+    name: "odm_lib_rfsa_adsp_libQnnHtpV73_so",
     filename: "libQnnHtpV73.so",
     owner: "oneplus",
     src: "proprietary/odm/lib/rfsa/adsp/libQnnHtpV73.so",
@@ -22140,7 +22140,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libQnnHtpV73Skel",
+    name: "odm_lib_rfsa_adsp_libQnnHtpV73Skel_so",
     filename: "libQnnHtpV73Skel.so",
     owner: "oneplus",
     src: "proprietary/odm/lib/rfsa/adsp/libQnnHtpV73Skel.so",
@@ -22149,7 +22149,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libQnnSaver",
+    name: "odm_lib_rfsa_adsp_libQnnSaver_so",
     filename: "libQnnSaver.so",
     owner: "oneplus",
     src: "proprietary/odm/lib/rfsa/adsp/libQnnSaver.so",
@@ -22158,7 +22158,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libSnpeHtpV73Skel",
+    name: "odm_lib_rfsa_adsp_libSnpeHtpV73Skel_so",
     filename: "libSnpeHtpV73Skel.so",
     owner: "oneplus",
     src: "proprietary/odm/lib/rfsa/adsp/libSnpeHtpV73Skel.so",
@@ -22167,7 +22167,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libSuperRawPost_skel",
+    name: "odm_lib_rfsa_adsp_libSuperRawPost_skel_so",
     filename: "libSuperRawPost_skel.so",
     owner: "oneplus",
     src: "proprietary/odm/lib/rfsa/adsp/libSuperRawPost_skel.so",
@@ -22176,7 +22176,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libaisr_skel",
+    name: "odm_lib_rfsa_adsp_libaisr_skel_so",
     filename: "libaisr_skel.so",
     owner: "oneplus",
     src: "proprietary/odm/lib/rfsa/adsp/libaisr_skel.so",
@@ -22185,7 +22185,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libarc_gk_pt_hvx_skel",
+    name: "odm_lib_rfsa_adsp_libarc_gk_pt_hvx_skel_so",
     filename: "libarc_gk_pt_hvx_skel.so",
     owner: "oneplus",
     src: "proprietary/odm/lib/rfsa/adsp/libarc_gk_pt_hvx_skel.so",
@@ -22194,7 +22194,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libarc_htp_driver_skel",
+    name: "odm_lib_rfsa_adsp_libarc_htp_driver_skel_so",
     filename: "libarc_htp_driver_skel.so",
     owner: "oneplus",
     src: "proprietary/odm/lib/rfsa/adsp/libarc_htp_driver_skel.so",
@@ -22203,7 +22203,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libcalculator_skel",
+    name: "odm_lib_rfsa_adsp_libcalculator_skel_so",
     filename: "libcalculator_skel.so",
     owner: "oneplus",
     src: "proprietary/odm/lib/rfsa/adsp/libcalculator_skel.so",
@@ -22212,7 +22212,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libhvxFaceBeautyPre_skel",
+    name: "odm_lib_rfsa_adsp_libhvxFaceBeautyPre_skel_so",
     filename: "libhvxFaceBeautyPre_skel.so",
     owner: "oneplus",
     src: "proprietary/odm/lib/rfsa/adsp/libhvxFaceBeautyPre_skel.so",
@@ -22221,7 +22221,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libktvdrc",
+    name: "odm_lib_rfsa_adsp_libktvdrc_so",
     filename: "libktvdrc.so",
     owner: "oneplus",
     src: "proprietary/odm/lib/rfsa/adsp/libktvdrc.so",
@@ -22230,7 +22230,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libktveffect",
+    name: "odm_lib_rfsa_adsp_libktveffect_so",
     filename: "libktveffect.so",
     owner: "oneplus",
     src: "proprietary/odm/lib/rfsa/adsp/libktveffect.so",
@@ -22239,7 +22239,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libktveq",
+    name: "odm_lib_rfsa_adsp_libktveq_so",
     filename: "libktveq.so",
     owner: "oneplus",
     src: "proprietary/odm/lib/rfsa/adsp/libktveq.so",
@@ -22248,7 +22248,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libktvns",
+    name: "odm_lib_rfsa_adsp_libktvns_so",
     filename: "libktvns.so",
     owner: "oneplus",
     src: "proprietary/odm/lib/rfsa/adsp/libktvns.so",
@@ -22257,7 +22257,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libktvpitchshift",
+    name: "odm_lib_rfsa_adsp_libktvpitchshift_so",
     filename: "libktvpitchshift.so",
     owner: "oneplus",
     src: "proprietary/odm/lib/rfsa/adsp/libktvpitchshift.so",
@@ -22266,7 +22266,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libktvreverb",
+    name: "odm_lib_rfsa_adsp_libktvreverb_so",
     filename: "libktvreverb.so",
     owner: "oneplus",
     src: "proprietary/odm/lib/rfsa/adsp/libktvreverb.so",
@@ -22275,7 +22275,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libktvvolume",
+    name: "odm_lib_rfsa_adsp_libktvvolume_so",
     filename: "libktvvolume.so",
     owner: "oneplus",
     src: "proprietary/odm/lib/rfsa/adsp/libktvvolume.so",
@@ -22284,7 +22284,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libtfadsp_sb4_0_rx",
+    name: "odm_lib_rfsa_adsp_libtfadsp_sb4_0_rx_so",
     filename: "libtfadsp_sb4_0_rx.so",
     owner: "oneplus",
     src: "proprietary/odm/lib/rfsa/adsp/libtfadsp_sb4_0_rx.so",
@@ -22293,7 +22293,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libtfadsp_sb4_0_tx",
+    name: "odm_lib_rfsa_adsp_libtfadsp_sb4_0_tx_so",
     filename: "libtfadsp_sb4_0_tx.so",
     owner: "oneplus",
     src: "proprietary/odm/lib/rfsa/adsp/libtfadsp_sb4_0_tx.so",
@@ -22302,7 +22302,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libvdblurless_5.0.2_skel",
+    name: "odm_lib_rfsa_adsp_libvdblurless_5_0_2_skel_so",
     filename: "libvdblurless_5.0.2_skel.so",
     owner: "oneplus",
     src: "proprietary/odm/lib/rfsa/adsp/libvdblurless_5.0.2_skel.so",
@@ -22311,7 +22311,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libvdsuperphoto_skel",
+    name: "odm_lib_rfsa_adsp_libvdsuperphoto_skel_so",
     filename: "libvdsuperphoto_skel.so",
     owner: "oneplus",
     src: "proprietary/odm/lib/rfsa/adsp/libvdsuperphoto_skel.so",
@@ -22320,7 +22320,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "nlc",
+    name: "odm_lib_rfsa_adsp_nlc_so",
     filename: "nlc.so",
     owner: "oneplus",
     src: "proprietary/odm/lib/rfsa/adsp/nlc.so",
@@ -22329,7 +22329,7 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "nlc_bgth",
+    name: "odm_lib_rfsa_adsp_nlc_bgth_so",
     filename: "nlc_bgth.so",
     owner: "oneplus",
     src: "proprietary/odm/lib/rfsa/adsp/nlc_bgth.so",
