@@ -5,9 +5,10 @@
 soong_namespace {
     imports: [
         "device/oneplus/sm8550-common",
+        "hardware/oplus",
+        "hardware/pixelworks/interfaces",
         "hardware/qcom-caf/sm8550",
         "hardware/qcom-caf/wlan",
-        "hardware/oplus",
         "vendor/qcom/opensource/commonsys/display",
         "vendor/qcom/opensource/commonsys-intf/display",
         "vendor/qcom/opensource/dataservices",
@@ -7176,8 +7177,8 @@ cc_prebuilt_library_shared {
                 "libhidlbase",
                 "libbase",
                 "libbinder_ndk",
-                "vendor.pixelworks.hardware.feature@1.0_vendor",
-                "vendor.pixelworks.hardware.feature@1.1_vendor",
+                "vendor.pixelworks.hardware.feature@1.0",
+                "vendor.pixelworks.hardware.feature@1.1",
                 "libc++",
                 "libc",
                 "libm",
@@ -7206,8 +7207,8 @@ cc_prebuilt_library_shared {
                 "libutils",
                 "libcutils",
                 "libhidlbase",
-                "vendor.pixelworks.hardware.feature@1.0_vendor",
-                "vendor.pixelworks.hardware.feature@1.1_vendor",
+                "vendor.pixelworks.hardware.feature@1.0",
+                "vendor.pixelworks.hardware.feature@1.1",
                 "libc++",
                 "libc",
                 "libm",
@@ -7236,9 +7237,9 @@ cc_prebuilt_library_shared {
                 "libutils",
                 "libcutils",
                 "libhidlbase",
-                "vendor.pixelworks.hardware.display@1.0_vendor",
-                "vendor.pixelworks.hardware.display@1.1_vendor",
-                "vendor.pixelworks.hardware.display@1.2_vendor",
+                "vendor.pixelworks.hardware.display@1.0",
+                "vendor.pixelworks.hardware.display@1.1",
+                "vendor.pixelworks.hardware.display@1.2",
                 "libc++",
                 "libc",
                 "libm",
@@ -7272,9 +7273,9 @@ cc_prebuilt_library_shared {
                 "libpwirisfeature",
                 "libhidlbase",
                 "libhidltransport",
-                "vendor.pixelworks.hardware.display@1.0_vendor",
-                "vendor.pixelworks.hardware.display@1.1_vendor",
-                "vendor.pixelworks.hardware.display@1.2_vendor",
+                "vendor.pixelworks.hardware.display@1.0",
+                "vendor.pixelworks.hardware.display@1.1",
+                "vendor.pixelworks.hardware.display@1.2",
                 "libc++",
                 "libc",
                 "libm",
@@ -10408,7 +10409,7 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "libpwirisfeature",
                 "libhidltransport",
-                "vendor.pixelworks.hardware.display@1.2_vendor",
+                "vendor.pixelworks.hardware.display@1.2",
                 "libpwirishal",
                 "libpwirisfeaturehal",
                 "liblog",
@@ -10453,7 +10454,7 @@ cc_prebuilt_library_shared {
                 "libpwirisfeature",
                 "libhidlbase",
                 "libhidltransport",
-                "vendor.pixelworks.hardware.display@1.2_vendor",
+                "vendor.pixelworks.hardware.display@1.2",
                 "libpwirishal",
                 "libpwirisfeaturehal",
                 "liblog",
@@ -13805,180 +13806,6 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libbinder_ndk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor.pixelworks.hardware.display@1.0_vendor",
-    stem: "vendor.pixelworks.hardware.display@1.0",
-    owner: "oneplus",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/vendor.pixelworks.hardware.display@1.0.so",
-            ],
-            shared_libs: [
-                "libhidlbase",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor.pixelworks.hardware.display@1.1_vendor",
-    stem: "vendor.pixelworks.hardware.display@1.1",
-    owner: "oneplus",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/vendor.pixelworks.hardware.display@1.1.so",
-            ],
-            shared_libs: [
-                "vendor.pixelworks.hardware.display@1.0_vendor",
-                "libhidlbase",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor.pixelworks.hardware.display@1.2_vendor",
-    stem: "vendor.pixelworks.hardware.display@1.2",
-    owner: "oneplus",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/vendor.pixelworks.hardware.display@1.2.so",
-            ],
-            shared_libs: [
-                "vendor.pixelworks.hardware.display@1.0_vendor",
-                "vendor.pixelworks.hardware.display@1.1_vendor",
-                "libhidlbase",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor.pixelworks.hardware.feature-V1-ndk",
-    owner: "oneplus",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/vendor.pixelworks.hardware.feature-V1-ndk.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor.pixelworks.hardware.feature@1.0_vendor",
-    stem: "vendor.pixelworks.hardware.feature@1.0",
-    owner: "oneplus",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/vendor.pixelworks.hardware.feature@1.0.so",
-            ],
-            shared_libs: [
-                "libhidlbase",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor.pixelworks.hardware.feature@1.1_vendor",
-    stem: "vendor.pixelworks.hardware.feature@1.1",
-    owner: "oneplus",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/vendor.pixelworks.hardware.feature@1.1.so",
-            ],
-            shared_libs: [
-                "vendor.pixelworks.hardware.feature@1.0_vendor",
-                "libhidlbase",
-                "liblog",
-                "libutils",
-                "libcutils",
                 "libc++",
                 "libc",
                 "libm",
@@ -22526,150 +22353,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.pixelworks.hardware.display@1.0",
-    owner: "oneplus",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/odm/lib64/vendor.pixelworks.hardware.display@1.0.so",
-            ],
-            shared_libs: [
-                "libhidlbase",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    device_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor.pixelworks.hardware.display@1.1",
-    owner: "oneplus",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/odm/lib64/vendor.pixelworks.hardware.display@1.1.so",
-            ],
-            shared_libs: [
-                "vendor.pixelworks.hardware.display@1.0",
-                "libhidlbase",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    device_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor.pixelworks.hardware.display@1.2",
-    owner: "oneplus",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/odm/lib64/vendor.pixelworks.hardware.display@1.2.so",
-            ],
-            shared_libs: [
-                "vendor.pixelworks.hardware.display@1.0",
-                "vendor.pixelworks.hardware.display@1.1",
-                "libhidlbase",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    device_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor.pixelworks.hardware.feature@1.0",
-    owner: "oneplus",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/odm/lib64/vendor.pixelworks.hardware.feature@1.0.so",
-            ],
-            shared_libs: [
-                "libhidlbase",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    device_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor.pixelworks.hardware.feature@1.1",
-    owner: "oneplus",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/odm/lib64/vendor.pixelworks.hardware.feature@1.1.so",
-            ],
-            shared_libs: [
-                "vendor.pixelworks.hardware.feature@1.0",
-                "libhidlbase",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    device_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "vendor.qti.esepowermanager@1.0",
     owner: "oneplus",
     strip: {
@@ -24479,9 +24162,9 @@ cc_prebuilt_binary {
                 "android.hardware.common-V2-ndk",
                 "vendor.qti.hardware.display.config-V4-ndk",
                 "vendor.qti.hardware.display.demura@2.0",
-                "vendor.pixelworks.hardware.display@1.0_vendor",
-                "vendor.pixelworks.hardware.display@1.1_vendor",
-                "vendor.pixelworks.hardware.display@1.2_vendor",
+                "vendor.pixelworks.hardware.display@1.0",
+                "vendor.pixelworks.hardware.display@1.1",
+                "vendor.pixelworks.hardware.display@1.2",
                 "vendor.qti.hardware.display.mapperextensions@1.1",
                 "vendor.qti.hardware.display.mapperextensions@1.2",
                 "vendor.qti.hardware.display.mapperextensions@1.3",
