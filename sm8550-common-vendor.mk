@@ -1212,8 +1212,6 @@ PRODUCT_PACKAGES += \
     odm_lib_rfsa_adsp_libktvpitchshift_so \
     odm_lib_rfsa_adsp_libktvreverb_so \
     odm_lib_rfsa_adsp_libktvvolume_so \
-    odm_lib_rfsa_adsp_libtfadsp_sb4_0_rx_so \
-    odm_lib_rfsa_adsp_libtfadsp_sb4_0_tx_so \
     odm_lib_rfsa_adsp_libvdblurless_5_0_2_skel_so \
     odm_lib_rfsa_adsp_libvdsuperphoto_skel_so \
     odm_lib_rfsa_adsp_nlc_so \
