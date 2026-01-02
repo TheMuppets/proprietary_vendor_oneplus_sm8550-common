@@ -1212,8 +1212,6 @@ PRODUCT_PACKAGES += \
     libktvpitchshift \
     libktvreverb \
     libktvvolume \
-    libtfadsp_sb4_0_rx \
-    libtfadsp_sb4_0_tx \
     libvdblurless_5.0.2_skel \
     libvdsuperphoto_skel \
     nlc \

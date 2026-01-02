@@ -22283,24 +22283,6 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "libtfadsp_sb4_0_rx",
-    filename: "libtfadsp_sb4_0_rx.so",
-    owner: "oneplus",
-    src: "proprietary/odm/lib/rfsa/adsp/libtfadsp_sb4_0_rx.so",
-    relative_install_path: "adsp",
-    device_specific: true,
-}
-
-prebuilt_rfsa {
-    name: "libtfadsp_sb4_0_tx",
-    filename: "libtfadsp_sb4_0_tx.so",
-    owner: "oneplus",
-    src: "proprietary/odm/lib/rfsa/adsp/libtfadsp_sb4_0_tx.so",
-    relative_install_path: "adsp",
-    device_specific: true,
-}
-
-prebuilt_rfsa {
     name: "libvdblurless_5.0.2_skel",
     filename: "libvdblurless_5.0.2_skel.so",
     owner: "oneplus",
