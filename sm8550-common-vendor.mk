@@ -1281,7 +1281,6 @@ PRODUCT_PACKAGES += \
     manifest_oplus_fingerprint_aidl_v2.xml \
     manifest_oplus_ifaa.xml \
     manifest_oplus_stability_project_aidl.xml \
-    manifest_secure_element.xml \
     manifest_touch_aidl.xml \
     vendor.pixelworks.hardware.display@1.2.xml \
     vendor.pixelworks.hardware.feature.irisfeature-service.xml \
