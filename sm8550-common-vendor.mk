@@ -22,7 +22,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8550-common/proprietary/odm/etc/init/vendor.oplus.hardware.biometrics.fingerprintpay@1.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.biometrics.fingerprintpay@1.0-service.rc \
     vendor/oneplus/sm8550-common/proprietary/odm/etc/init/vendor.oplus.hardware.charger-V9-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.charger-V9-service.rc \
     vendor/oneplus/sm8550-common/proprietary/odm/etc/init/vendor.oplus.hardware.stability.oplus_project-V1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.stability.oplus_project-V1-service.rc \
-    vendor/oneplus/sm8550-common/proprietary/odm/etc/init/vendor.pixelworks.hardware.feature.irisfeature-service-lazy.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.pixelworks.hardware.feature.irisfeature-service-lazy.rc \
     vendor/oneplus/sm8550-common/proprietary/odm/etc/init/vendor.qti.esepowermanager@1.1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.qti.esepowermanager@1.1-service.rc \
     vendor/oneplus/sm8550-common/proprietary/odm/etc/init/vendor.qti.secure_element@1.2-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.qti.secure_element@1.2-service.rc \
     vendor/oneplus/sm8550-common/proprietary/odm/etc/izat.conf:$(TARGET_COPY_OUT_ODM)/etc/izat.conf \
@@ -666,10 +665,10 @@ PRODUCT_PACKAGES += \
     libprekill \
     libprocomp \
     libpsmoptfeature \
-    libpwirisfeature \
+    libpwirisfeature_vendor \
     libpwirisfeaturehal \
     libpwirishal \
-    libpwirishalwrapper \
+    libpwirishalwrapper_vendor \
     libqapesdk \
     libqc2audio_base \
     libqc2audio_basecodec \
@@ -1154,7 +1153,6 @@ PRODUCT_PACKAGES += \
     libqcom_llm \
     libtransformer_lite \
     android.hardware.secure_element@1.0-impl \
-    vendor.pixelworks.hardware.display@1.0-impl-1.2-i7 \
     vendor.qti.esepowermanager@1.1-impl \
     lib-virtual-modem-protos \
     libGaiaClient_vnd \
@@ -1185,22 +1183,12 @@ PRODUCT_PACKAGES += \
     libolc_vnd \
     liboplus_service \
     libosenseaidlhalclient \
-    libpwirisIoctlWrapper \
-    libpwirisPCS \
-    libpwiriscalibrate \
-    libpwirisfeature_odm \
-    libpwirishalwrapper_odm \
-    libpwirispq \
-    libpwirisservicei7 \
-    libpwirissoft \
-    libpwsoftirisPCS \
     libqti-radio-service \
     libradio-service \
     libradioapis \
     librfapis \
     librpmbengclient \
     libsecurity_event_dcs_vnd \
-    libsnapdragoncolor-pxlw \
     libsubsys-service \
     libsubsys-utils \
     libtfa98xx \
@@ -1304,8 +1292,6 @@ PRODUCT_PACKAGES += \
     manifest_oplus_ifaa.xml \
     manifest_oplus_stability_project_aidl.xml \
     manifest_touch_aidl.xml \
-    vendor.pixelworks.hardware.display@1.2.xml \
-    vendor.pixelworks.hardware.feature.irisfeature-service.xml \
     ATFWD-daemon \
     adpl \
     adsprpcd \
@@ -1412,11 +1398,9 @@ PRODUCT_PACKAGES += \
     vendor.oplus.hardware.charger-V9-service \
     vendor.oplus.hardware.esim@1.0-service \
     vendor.oplus.hardware.stability.oplus_project-V1-service \
-    vendor.pixelworks.hardware.feature.irisfeature-service \
     vendor.qti.esepowermanager@1.1-service \
     vendor.qti.secure_element@1.2-service \
     init.subsys \
-    irisConfig \
     oplus_sensor_fb \
     touchDaemon
 
