@@ -1,4 +1,4 @@
-service oplus_charger_hal_service /odm/bin/hw/vendor.oplus.hardware.charger-V9-service
+service oplus_charger_hal_service /odm/bin/hw/vendor.oplus.hardware.charger-V10-service
     interface aidl vendor.oplus.hardware.charger.ICharger/default
     class hal
     user system
@@ -110,6 +110,11 @@ on property:sys.boot_completed=1
     chown system system /sys/class/oplus_chg/common/plc
     chown system system /sys/class/oplus_chg/wireless/rx_disable
     chown system system /sys/class/oplus_chg/wireless/bt_info
+    chown system system /sys/class/oplus_chg/wireless/wlspen_info
+    chown system system /sys/class/oplus_chg/wireless/wlspen_soc
+    chown system system /sys/class/oplus_chg/wireless/wlspen_dischg_soc
+    chown system system /sys/class/oplus_chg/wireless/ping_time
+    chown system system /proc/wireless/mac_addr
     chown system system /sys/class/oplus_chg/common/dec_delta
     chown system system /sys/class/oplus_chg/battery/battery_seal_flag
     chown system system /sys/class/oplus_chg/common/lpd_config
@@ -119,7 +124,7 @@ on property:sys.boot_completed=1
     chown system system /sys/class/oplus_chg/battery/bdd_voltdiff_trend
     chown system system /sys/class/oplus_chg/battery/get_three_level_term_volt
     chown system system /sys/class/oplus_chg/battery/gauge_nvram_stress_test
-
+    chown system system /sys/class/oplus_chg/common/reverse_chg_info
 service ufcsd /odm/bin/hw/ufcsd
     class main
     user system
