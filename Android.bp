@@ -21404,7 +21404,7 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "vendor.oplus.hardware.subsys-V5-ndk",
-                "vendor.oplus.hardware.subsys_radio-V8-ndk",
+                "vendor.oplus.hardware.subsys_radio-V9-ndk",
                 "libradio-service",
                 "libsubsys-service",
                 "libradioapis",
@@ -21445,7 +21445,7 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "vendor.oplus.hardware.subsys-V5-ndk",
-                "vendor.oplus.hardware.subsys_radio-V8-ndk",
+                "vendor.oplus.hardware.subsys_radio-V9-ndk",
                 "libhidlbase",
                 "libmindroid-framework",
                 "libcutils",
@@ -21760,7 +21760,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.oplus.hardware.subsys_radio-V8-ndk",
+    name: "vendor.oplus.hardware.subsys_radio-V9-ndk",
     owner: "oneplus",
     strip: {
         none: true,
@@ -21768,7 +21768,7 @@ cc_prebuilt_library_shared {
     target: {
         android_arm64: {
             srcs: [
-                "proprietary/odm/lib64/vendor.oplus.hardware.subsys_radio-V8-ndk.so",
+                "proprietary/odm/lib64/vendor.oplus.hardware.subsys_radio-V9-ndk.so",
             ],
             shared_libs: [
                 "libbinder_ndk",

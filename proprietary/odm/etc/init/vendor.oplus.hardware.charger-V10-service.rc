@@ -84,6 +84,7 @@ on property:sys.boot_completed=1
     chown system system /sys/class/oplus_chg/common/chg_up_limit
     chown system system /sys/class/oplus_chg/common/byb_status
     chown system system /sys/class/oplus_chg/common/byb_vout
+    chown system system /sys/class/oplus_chg/common/boost_disable_auto_mode
     chown system system /sys/class/oplus_chg/battery/battery_first_usage_date
     chown system system /sys/class/oplus_chg/battery/battery_ui_cc
     chown system system /sys/class/oplus_chg/battery/battery_ui_soh
@@ -107,6 +108,7 @@ on property:sys.boot_completed=1
     chmod 0666 /proc/oplus_usb_eusb2/eusb2
     chmod 0666 /proc/oplus_usb_xsphy/xsphy
     chown system system /sys/class/oplus_chg/common/non_standard_chg_switch
+    chown system system /sys/class/oplus_chg/battery/dual_cells_batt_health
     chown system system /sys/class/oplus_chg/common/plc
     chown system system /sys/class/oplus_chg/wireless/rx_disable
     chown system system /sys/class/oplus_chg/wireless/bt_info
@@ -143,6 +145,7 @@ on boot
     chown system system /sys/class/oplus_chg/battery/historic_soh_date
     chown system system /sys/class/oplus_chg/battery/rechg_soc
     chown system system /sys/class/oplus_chg/battery/battery_used_flag
+    chown system system /sys/class/oplus_chg/battery/dual_cells_batt_health
     start ufcsd
     chown system system /sys/class/power_supply/battery/current_now
     chmod 0664 /sys/class/power_supply/battery/current_now
@@ -154,6 +157,7 @@ on charger
     chown system system /sys/class/oplus_chg/battery/reset_gauge
     chown system system /sys/class/oplus_chg/battery/batt_ic_sn
     chown system system /sys/class/oplus_chg/battery/historic_soh_date
+    chown system system /sys/class/oplus_chg/battery/dual_cells_batt_health
     start ufcsd
     chown system system /sys/class/power_supply/battery/current_now
     chmod 0664 /sys/class/power_supply/battery/current_now
