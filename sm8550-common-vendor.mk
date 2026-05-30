@@ -869,10 +869,6 @@ PRODUCT_PACKAGES += \
     vendor.libdpmframework \
     vendor.libdpmtcm \
     vendor.libmwqemiptablemgr \
-    vendor.oplus.hardware.appradioaidl-V1-ndk \
-    vendor.oplus.hardware.communicationcenter-V2-ndk_vendor \
-    vendor.oplus.hardware.cwb@1.0 \
-    vendor.oplus.hardware.ims-V1-ndk \
     vendor.qti.data.factory@2.0 \
     vendor.qti.data.factory@2.1 \
     vendor.qti.data.factory@2.2 \
@@ -1186,9 +1182,6 @@ PRODUCT_PACKAGES += \
     libsubsys-utils \
     libtfa98xx \
     libvasapi \
-    vendor.oplus.hardware.communicationcenter-V2-ndk \
-    vendor.oplus.hardware.subsys-V5-ndk \
-    vendor.oplus.hardware.subsys_radio-V9-ndk \
     vendor.qti.esepowermanager@1.0 \
     vendor.qti.esepowermanager@1.1 \
     odm_lib_rfsa_adsp_aiboost_libQnnHtpV73Skel_so \
