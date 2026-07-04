@@ -804,7 +804,6 @@ PRODUCT_PACKAGES += \
     libvideotxr \
     libvideoutils \
     libvmfilexfer \
-    libvmmem \
     libvui_dmgr \
     libvui_dmgr_client \
     libwfdcodecv4l2_proprietary \
