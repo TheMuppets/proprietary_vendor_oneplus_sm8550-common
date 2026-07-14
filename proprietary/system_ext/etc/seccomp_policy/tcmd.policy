@@ -71,3 +71,4 @@ gettid: 1
 rt_tgsigqueueinfo: 1
 nanosleep: 1
 madvise: 1
+lseek: 1
