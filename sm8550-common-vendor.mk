@@ -18,6 +18,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8550-common/proprietary/odm/etc/init/init.touchDaemon.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.touchDaemon.rc \
     vendor/oneplus/sm8550-common/proprietary/odm/etc/init/subsys_daemon.rc:$(TARGET_COPY_OUT_ODM)/etc/init/subsys_daemon.rc \
     vendor/oneplus/sm8550-common/proprietary/odm/etc/init/vendor-oplus-hardware-touch-V2-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor-oplus-hardware-touch-V2-service.rc \
+    vendor/oneplus/sm8550-common/proprietary/odm/etc/init/vendor.oplus.hardware.biometrics.face@1.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.biometrics.face@1.0-service.rc \
     vendor/oneplus/sm8550-common/proprietary/odm/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc \
     vendor/oneplus/sm8550-common/proprietary/odm/etc/init/vendor.oplus.hardware.biometrics.fingerprintpay@1.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.biometrics.fingerprintpay@1.0-service.rc \
     vendor/oneplus/sm8550-common/proprietary/odm/etc/init/vendor.oplus.hardware.charger-V11-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.charger-V11-service.rc \
@@ -28,6 +29,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8550-common/proprietary/odm/etc/permissions/android.hardware.context_hub.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/android.hardware.context_hub.xml \
     vendor/oneplus/sm8550-common/proprietary/odm/etc/plugin_config.xml:$(TARGET_COPY_OUT_ODM)/etc/plugin_config.xml \
     vendor/oneplus/sm8550-common/proprietary/odm/etc/sap.conf:$(TARGET_COPY_OUT_ODM)/etc/sap.conf \
+    vendor/oneplus/sm8550-common/proprietary/odm/init.oplus.face.rc:$(TARGET_COPY_OUT_ODM)/init.oplus.face.rc \
     vendor/oneplus/sm8550-common/proprietary/odm/vendor/firmware/alipay.b00:$(TARGET_COPY_OUT_ODM)/vendor/firmware/alipay.b00 \
     vendor/oneplus/sm8550-common/proprietary/odm/vendor/firmware/alipay.b01:$(TARGET_COPY_OUT_ODM)/vendor/firmware/alipay.b01 \
     vendor/oneplus/sm8550-common/proprietary/odm/vendor/firmware/alipay.b02:$(TARGET_COPY_OUT_ODM)/vendor/firmware/alipay.b02 \
@@ -491,6 +493,7 @@ PRODUCT_PACKAGES += \
     libbt-hidlclient \
     libbtnv \
     libcacertclient \
+    libcamera2ndk_vendor \
     libcapiv2svacnnvendor \
     libcapiv2svarnnvendor \
     libcapiv2udk7vendor \
@@ -1205,6 +1208,7 @@ PRODUCT_PACKAGES += \
     manifest_oplus_charger_aidl.xml \
     manifest_oplus_cwb.xml \
     manifest_oplus_esim.xml \
+    manifest_oplus_face.xml \
     manifest_oplus_fingerprint_aidl_v2.xml \
     manifest_oplus_ifaa.xml \
     manifest_oplus_stability_project_aidl.xml \
@@ -1305,6 +1309,7 @@ PRODUCT_PACKAGES += \
     gauged \
     subsys_daemon \
     vendor-oplus-hardware-touch-V2-service \
+    vendor.oplus.hardware.biometrics.face@1.0-service \
     vendor.oplus.hardware.biometrics.fingerprint@2.1-service_uff \
     vendor.oplus.hardware.biometrics.fingerprintpay@1.0-service \
     vendor.oplus.hardware.charger-V11-service \

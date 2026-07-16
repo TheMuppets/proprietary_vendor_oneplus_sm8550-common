@@ -2812,6 +2812,46 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libcamera2ndk_vendor",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libcamera2ndk_vendor.so",
+            ],
+            shared_libs: [
+                "libfmq",
+                "libhidlbase",
+                "libhardware",
+                "libnativewindow",
+                "liblog",
+                "libutils",
+                "libstagefright_foundation",
+                "libcutils",
+                "libcamera_metadata",
+                "libmediandk",
+                "android.frameworks.cameraservice.device@2.0",
+                "android.frameworks.cameraservice.device@2.1",
+                "android.frameworks.cameraservice.common@2.0",
+                "android.frameworks.cameraservice.service@2.0",
+                "android.frameworks.cameraservice.service@2.1",
+                "android.frameworks.cameraservice.service@2.2",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libcapiv2svacnnvendor",
     owner: "oneplus",
     strip: {
@@ -21302,6 +21342,15 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
+    name: "manifest_oplus_face.xml",
+    owner: "oneplus",
+    src: "proprietary/odm/etc/vintf/manifest/manifest_oplus_face.xml",
+    filename_from_src: true,
+    sub_dir: "vintf/manifest",
+    device_specific: true,
+}
+
+prebuilt_etc_xml {
     name: "manifest_oplus_fingerprint_aidl_v2.xml",
     owner: "oneplus",
     src: "proprietary/odm/etc/vintf/manifest/manifest_oplus_fingerprint_aidl_v2.xml",
@@ -24254,6 +24303,56 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    name: "vendor.oplus.hardware.biometrics.face@1.0-service",
+    owner: "oneplus",
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/bin/hw/vendor.oplus.hardware.biometrics.face@1.0-service",
+            ],
+            shared_libs: [
+                "libbase_shim",
+                "libbinder",
+                "liblog",
+                "libhidlbase",
+                "libhidltransport",
+                "libcutils",
+                "libhardware",
+                "libutils",
+                "libbase",
+                "libcamera2ndk_vendor",
+                "libmediandk",
+                "libnativewindow",
+                "libui",
+                "libbinder_ndk",
+                "libdmabufheap",
+                "android.hardware.biometrics.face-V2-ndk",
+                "android.hardware.biometrics.common-V2-ndk",
+                "vendor.oplus.hardware.osense.client-V1-ndk",
+                "android.hardware.keymaster-V3-ndk",
+                "libosenseaidlhalclient",
+                "vendor.oplus.hardware.commondcs-V1-ndk",
+                "libstfaceunlockocl",
+                "libion",
+                "libQSEEComAPI",
+                "libolc_vnd",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    strip: {
+        none: true,
+    },
+    prefer: true,
+    relative_install_path: "hw",
+    device_specific: true,
+}
+
+cc_prebuilt_binary {
     name: "vendor.oplus.hardware.biometrics.fingerprint@2.1-service_uff",
     owner: "oneplus",
     target: {
@@ -24633,4 +24732,10 @@ install_symlink {
     soc_specific: true,
     installed_location: "lib64/libq3dtools_adreno.so",
     symlink_target: "/vendor/lib64/egl/libq3dtools_adreno.so",
+}
+
+cc_library_shared {
+    name: "libstfaceunlockocl",
+    compile_multilib: "64",
+    device_specific: true,
 }
