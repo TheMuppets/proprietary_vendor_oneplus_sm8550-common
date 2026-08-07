@@ -149,6 +149,7 @@ on boot
     start ufcsd
     chown system system /sys/class/power_supply/battery/current_now
     chmod 0664 /sys/class/power_supply/battery/current_now
+    chown system system /sys/class/oplus_chg/wireless/wlspen_info
 
 on charger
     chown system system /dev/ufcs_dev
@@ -161,4 +162,5 @@ on charger
     start ufcsd
     chown system system /sys/class/power_supply/battery/current_now
     chmod 0664 /sys/class/power_supply/battery/current_now
+    chown system system /sys/class/oplus_chg/wireless/wlspen_info
 
