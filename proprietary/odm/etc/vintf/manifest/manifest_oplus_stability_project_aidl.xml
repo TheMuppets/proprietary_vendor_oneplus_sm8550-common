@@ -1,7 +1,7 @@
 <manifest version="1.0" type="device">
     <hal format="aidl">
         <name>vendor.oplus.hardware.stability.oplus_project</name>
-        <version>2</version>
+        <version>3</version>
         <fqname>IOplusProject/default</fqname>
     </hal>
 </manifest>

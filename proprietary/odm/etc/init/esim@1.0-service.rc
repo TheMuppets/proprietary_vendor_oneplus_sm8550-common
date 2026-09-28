@@ -4,4 +4,5 @@ service oplus.esim-1-0 /odm/bin/hw/vendor.oplus.hardware.esim@1.0-service
     group root system
 
 on boot
-    chmod 0666 dev/esim-en
+    chown root radio /dev/esim-en
+    chmod 0660 /dev/esim-en

@@ -1,4 +1,4 @@
-service oplus_charger_hal_service /odm/bin/hw/vendor.oplus.hardware.charger-V10-service
+service oplus_charger_hal_service /odm/bin/hw/vendor.oplus.hardware.charger-V11-service
     interface aidl vendor.oplus.hardware.charger.ICharger/default
     class hal
     user system
@@ -9,6 +9,10 @@ service wlschgd /odm/bin/hw/wlschgd
     user system
     group root system
     oneshot
+
+on early-boot
+    chmod 0664 /sys/class/oplus_chg/common/track_hidl
+    chown system system /sys/class/oplus_chg/common/track_hidl
 
 on init
     chmod 0664 /sys/class/oplus_chg/common/track_hidl
@@ -43,10 +47,14 @@ on charger
 
 on property:sys.boot_completed=1
     write /proc/ui_soc_decimal 1
+    write /proc/bcl_stat/dynamic_vbat_0 1
+    write /proc/bcl_stat/dynamic_vbat_1 1
+    write /proc/sc83107_bcl/dynamic_bcl 1
     chmod 0666 /sys/class/power_supply/battery/current_now
     chown system system /sys/class/oplus_chg/wireless/status_keep
     chmod 0666 /sys/class/oplus_wireless/pencil/rx_soc
     chmod 0666 /sys/class/oplus_wireless/pencil/present
+    chown system system /sys/class/oplus_wireless/pencil/tx_charge_disable
     chmod 0666 /sys/class/oplus_chg/battery/normal_cool_down
     chmod 0666 /sys/class/oplus_chg/battery/normal_current_now
     chmod 0666 /sys/class/oplus_chg/battery/battery_notify_code
@@ -79,6 +87,7 @@ on property:sys.boot_completed=1
     chown system system /sys/class/oplus_chg/common/battlog_push_config
     chown system system /sys/class/oplus_chg/common/deep_dischg_count_cali
     chown system system /sys/class/oplus_chg/common/deep_dischg_ratio_thr
+    chown system system /sys/class/oplus_chg/common/cc_tvs_damage
     chown system system /sys/class/oplus_chg/battery/gauge_info
     chown system system /sys/class/oplus_chg/common/sili_ic_alg_cfg
     chown system system /sys/class/oplus_chg/common/chg_up_limit
@@ -88,6 +97,7 @@ on property:sys.boot_completed=1
     chown system system /sys/class/oplus_chg/battery/battery_first_usage_date
     chown system system /sys/class/oplus_chg/battery/battery_ui_cc
     chown system system /sys/class/oplus_chg/battery/battery_ui_soh
+    chown system system /sys/class/oplus_chg/battery/gauge_type
     chown system system /sys/class/oplus_chg/battery/rechg_soc
     chown system system /sys/class/oplus_chg/battery/battery_used_flag
     chown system system /proc/device-tree/soc/qcom,pmic_glink/qcom,battery_charger/qcom,pmic_ftm_vbat
@@ -127,6 +137,7 @@ on property:sys.boot_completed=1
     chown system system /sys/class/oplus_chg/battery/get_three_level_term_volt
     chown system system /sys/class/oplus_chg/battery/gauge_nvram_stress_test
     chown system system /sys/class/oplus_chg/common/reverse_chg_info
+    chown system system /sys/class/oplus_chg/usb/vdm_info
 service ufcsd /odm/bin/hw/ufcsd
     class main
     user system
@@ -140,6 +151,7 @@ on boot
     chown system system /sys/class/oplus_chg/battery/battery_first_usage_date
     chown system system /sys/class/oplus_chg/battery/battery_ui_cc
     chown system system /sys/class/oplus_chg/battery/battery_ui_soh
+    chown system system /sys/class/oplus_chg/battery/gauge_type
     chown system system /sys/class/oplus_chg/battery/reset_gauge
     chown system system /sys/class/oplus_chg/battery/batt_ic_sn
     chown system system /sys/class/oplus_chg/battery/historic_soh_date
@@ -149,7 +161,8 @@ on boot
     start ufcsd
     chown system system /sys/class/power_supply/battery/current_now
     chmod 0664 /sys/class/power_supply/battery/current_now
-    chown system system /sys/class/oplus_chg/wireless/wlspen_info
+    chmod 0664 /sys/class/oplus_chg/common/track_hidl
+    chown system system /sys/class/oplus_chg/common/track_hidl
 
 on charger
     chown system system /dev/ufcs_dev
@@ -157,10 +170,12 @@ on charger
     chown system system /sys/class/oplus_chg/battery/rechg_soc
     chown system system /sys/class/oplus_chg/battery/reset_gauge
     chown system system /sys/class/oplus_chg/battery/batt_ic_sn
+    chown system system /sys/class/oplus_chg/battery/gauge_type
     chown system system /sys/class/oplus_chg/battery/historic_soh_date
     chown system system /sys/class/oplus_chg/battery/dual_cells_batt_health
     start ufcsd
     chown system system /sys/class/power_supply/battery/current_now
     chmod 0664 /sys/class/power_supply/battery/current_now
-    chown system system /sys/class/oplus_chg/wireless/wlspen_info
+    chmod 0664 /sys/class/oplus_chg/common/track_hidl
+    chown system system /sys/class/oplus_chg/common/track_hidl
 

@@ -25656,12 +25656,12 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-    name: "vendor.oplus.hardware.charger-V10-service",
+    name: "vendor.oplus.hardware.charger-V11-service",
     owner: "oneplus",
     target: {
         android_arm64: {
             srcs: [
-                "proprietary/odm/bin/hw/vendor.oplus.hardware.charger-V10-service",
+                "proprietary/odm/bin/hw/vendor.oplus.hardware.charger-V11-service",
             ],
             shared_libs: [
                 "libbase_shim",
@@ -25676,7 +25676,7 @@ cc_prebuilt_binary {
                 "android.hardware.sensors@1.0",
                 "libsensorndkbridge",
                 "libm",
-                "vendor.oplus.hardware.charger-V10-ndk",
+                "vendor.oplus.hardware.charger-V11-ndk",
                 "vendor.oplus.hardware.osense.client-V1-ndk",
                 "libosenseaidlhalclient",
                 "libjsoncpp",
@@ -25740,7 +25740,6 @@ cc_prebuilt_binary {
                 "proprietary/odm/bin/hw/vendor.oplus.hardware.stability.oplus_project-V1-service",
             ],
             shared_libs: [
-                "vendor.oplus.hardware.stability.oplus_project-V2-ndk",
                 "libbase",
                 "libbinder",
                 "libcutils",
