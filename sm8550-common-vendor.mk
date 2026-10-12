@@ -1077,6 +1077,10 @@ PRODUCT_PACKAGES += \
     libqcom_llm \
     libtransformer_lite \
     android.hardware.secure_element@1.0-impl \
+    c2.dolby.client \
+    c2.dolby.hevc.dec \
+    c2.dolby.hevc.sec.dec \
+    c2.dolby.store \
     vendor.qti.esepowermanager@1.1-impl \
     lib-virtual-modem-protos \
     libGaiaClient_vnd \
@@ -1100,6 +1104,9 @@ PRODUCT_PACKAGES += \
     libdmtp-protos-lite \
     libdmtp \
     libdmtpclient \
+    libdolbydecoderprocessor \
+    libdolbyeglcore \
+    libdolbyottcameracontrol \
     libifaa_factory \
     liblvacfs_wrapper \
     libmindroid-app \
